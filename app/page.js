@@ -2,6 +2,7 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import InstagramContent from "@/components/InstagramContent";
+import Location from "@/components/Location";
 import Services from "@/components/Services";
  export default function Page() {
   return (
@@ -25,7 +26,7 @@ import Services from "@/components/Services";
         </h1>
       </main>
       <Services />
-      <InstagramContent />
+      <Location />
       <CTA />
       <Footer />
     </>
