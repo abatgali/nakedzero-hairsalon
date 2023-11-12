@@ -63,6 +63,25 @@ module.exports = {
     // You can add another theme among the list of 30+
     // Add "data-theme='theme_name" to any HTML tag to enable the 'theme_name' theme.
     // https://daisyui.com/
-    themes: ["light", "dark"],
+    themes: ["forest", "dark"],
+    mytheme: {
+      'primary': "#76D600",
+
+      'secondary': "#32E094",
+
+      'accent': "#88AB5E",
+
+      'neutral': "#6A785A",
+
+      'base-100': "#2B3321",
+
+      'info': "#3abff8",
+
+      'success': "#36d399",
+
+      'warning': "#fbbd23",
+
+      'error': "#f87272",
+    },
   },
 };
