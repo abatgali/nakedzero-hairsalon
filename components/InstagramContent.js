@@ -2,8 +2,8 @@ import React from "react";
 
 export default function InstagramContent() {
   return (
-    <React.Fragment>
-      <blockquote
+    <>
+      {/* <blockquote
         class="instagram-media"
         data-instgrm-permalink="https://www.instagram.com/nakedzerohairsalon/?utm_source=ig_embed&amp;utm_campaign=loading"
         data-instgrm-version="14"
@@ -105,7 +105,7 @@ export default function InstagramContent() {
           </p>
         </div>
       </blockquote>{" "}
-      <script async src="//www.instagram.com/embed.js"></script>
-    </React.Fragment>
+      <script async src="//www.instagram.com/embed.js"></script> */}
+    </>
   );
 }

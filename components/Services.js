@@ -1,7 +1,7 @@
 export default function Services() {
   return (
     <div className=" flex items-start h-auto sm:h-screen bg-neutral relative">
-      <div className="w-3/4 mx-auto h-full">
+      <div className="w-3/4 mx-auto h-auto">
         <h2 className="text-7xl font-black text-center -rotate-90 mt-32 absolute right-0 translate-x-1/3 p-2">
           Services
         </h2>
