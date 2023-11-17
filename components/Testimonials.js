@@ -26,7 +26,7 @@ export default function Testimonials() {
               <div className="flex items-center gap-4">
                 <img
                   alt="Man"
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src="https://images.pexels.com/photos/7514875/pexels-photo-7514875.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   className="h-14 w-14 rounded-full object-cover"
                 />
 
@@ -75,11 +75,10 @@ export default function Testimonials() {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Emily Davis
                   </p>
                 </div>
               </div>
-
               <p className="mt-4 text-gray-700">
                 Nakedzero is a hidden gem and I can&apos;t recommend it enough.
                 If you&apos;re looking for exceptional service, a relaxing
@@ -90,8 +89,8 @@ export default function Testimonials() {
             <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
-                  alt="Man"
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  alt="Woman"
+                  src="https://images.pexels.com/photos/3220360/pexels-photo-3220360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   className="h-14 w-14 rounded-full object-cover"
                 />
 
@@ -140,7 +139,7 @@ export default function Testimonials() {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Samantha Nguyen
                   </p>
                 </div>
               </div>
@@ -157,7 +156,7 @@ export default function Testimonials() {
               <div className="flex items-center gap-4">
                 <img
                   alt="Man"
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   className="h-14 w-14 rounded-full object-cover"
                 />
 
@@ -206,13 +205,14 @@ export default function Testimonials() {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Paul Smith
                   </p>
                 </div>
               </div>
 
               <p className="mt-4 text-gray-700">
-                The attention to detail is truly commendable and salon&apos;s convenient location is an added bonus for me.
+                The attention to detail is truly commendable and salon&apos;s
+                convenient location is an added bonus for me.
               </p>
             </blockquote>
           </div>
