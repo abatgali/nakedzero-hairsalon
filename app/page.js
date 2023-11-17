@@ -17,17 +17,17 @@ export default function Page() {
     <>
       <header>
         <div className="h-auto p-5">
-          <div className=" bg-primary fix rounded-full py-5 px-16 container mx-auto flex justify-between items-center w-2/3 backdrop-blur-sm bg-opacity-50">
+          <div className=" bg-primary rounded-full p-4  container mx-auto flex justify-around items-center w-2/3 backdrop-blur-sm bg-opacity-50">
             <h1 className="text-4xl font-bold text-white text-center">
-              NakedzerO
+              NakedzerO<br/>
             </h1>
-            <nav className="text-white">
+            {/* <nav className="text-white">
               <ul className="flex gap-5 max-md:hidden">
                 <li className="hover:text-gray-200">
                   <Link href="#services">Our Services</Link>
                 </li>
               </ul>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </header>
