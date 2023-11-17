@@ -10,7 +10,6 @@ export default function Services() {
             <h3 className="text-4xl font-bold mb-4">Hair Color</h3>
             <ul className="list-disc list-inside">
               <li>Balayage</li>
-              <li>Foilyage</li>
               <li>Highlights</li>
               <li>Full Coloring</li>
               <li>Gloss Toning</li>

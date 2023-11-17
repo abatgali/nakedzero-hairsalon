@@ -13,10 +13,11 @@ const Hero = () => {
         <p className="text-lg opacity-80 leading-relaxed">
         NakedzerO Hair Salon is a full service salon located in the South of Indianapolis. We offer a wide range of services from haircuts, color, and styling to waxing and makeup.
         </p>
-        <button className="btn btn-primary btn-wide">
-          Get Appointment
-        </button>
-
+        <a href="#services">
+          <button className="btn btn-primary btn-wide">
+            Our Services
+          </button>
+        </a>
         <TestimonialsAvatars priority={true} />
       </div>
       <div className="lg:w-full">
