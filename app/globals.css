@@ -20,3 +20,9 @@ progress::-webkit-progress-value {
     @apply !capitalize;
   }
 }
+
+.pricing {
+  font-size: x-small;
+  font-weight: 600;
+  color: #11ff29;
+}
