@@ -5,7 +5,7 @@ const config = {
   appName: "NakedzerO Hair Salon",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "NakedzerO Hair Salon is a full service salon located in the South of Indianapolis. We offer a wide range of services from haircuts, color, and styling to waxing and makeup.",
+  "NakedzerO Hair Salon is a full service salon located in the South of Indianapolis. We offer a wide range of services from haircuts, color, and styling to skin care products and treatments.",  
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
   domainName: "nakedzerosalon.com",
   crisp: {

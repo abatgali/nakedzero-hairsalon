@@ -1,12 +1,13 @@
 export default function Location() {
   return (
     <div className=" flex justify-center pt-10 flex-col h-screen mb-24">
-      <h1 className="text-5xl font-extrabold my-10 text-center">
+      <h1 className="text-6xl font-extrabold mt-12 text-center">
         Where We Are
       </h1>
-      <h3 className="text-2xl font-bold my-10 text-center">
+      <h3 className="text-2xl font-light my-10 text-center">
         8319 US 31 S, Indianapolis, IN 46227
       </h3>
+      <p className="text-xl text-center"><u>Monday - Sunday</u><br/><span className="font-bold">11:00 AM to 8:00 PM</span></p>
       <a href="https://maps.google.com/maps/dir//Mui+Le+Sam+By+Nakedzero+Hair+Salon+8319+US+31+S+Indianapolis,+IN+46227/@39.6451741,-86.1324631,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x886b5dcc43cae7df:0x186193e086ca2e9a" className="mx-auto" target="new">
         <button className="bg-primary text-white font-bold py-2 px-4 rounded-full my-10 w-48 btn">
           Get Directions

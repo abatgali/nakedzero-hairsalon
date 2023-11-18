@@ -2,7 +2,6 @@
 import Image from "next/image";
 import TestimonialsAvatars from "./TestimonialsAvatars";
 import { useEffect } from "react";
-import config from "@/config";
 import gsap from "gsap";
 
 const Hero = () => {
@@ -24,10 +23,9 @@ const Hero = () => {
           {'Give yourself a new look'.split('').map((char, index) => (
             <span key={index}>{char}</span>
           ))}
-          {/* Give yourself a new look */}
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-        NakedzerO Hair Salon is a full service salon located in the South of Indianapolis. We offer a wide range of services from haircuts, color, and styling to waxing and makeup.
+        NakedzerO Hair Salon is a full service salon located in the South of Indianapolis. We offer a wide range of services from haircuts, color, and styling to skin care products and hair treatments.
         </p>
         <a href="#services">
           <button className="btn btn-primary btn-wide">

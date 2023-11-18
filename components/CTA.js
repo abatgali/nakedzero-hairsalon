@@ -1,10 +1,10 @@
 import Image from "next/image";
-
+import Link from "next/link";
 const CTA = () => {
   return (
     <section className="relative hero overflow-hidden min-h-screen">
       <Image
-        src="https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://images.pexels.com/photos/4422102/pexels-photo-4422102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Background"
         className="object-cover w-full"
         fill
@@ -19,7 +19,14 @@ const CTA = () => {
             Ready for the makeover you imagined? Book an appointment today!
           </p>
 
-          <button className="btn btn-primary btn-wide">Book Now</button>
+          <button className="btn btn-primary btn-wide">
+            <Link
+              href="https://cal.com/team/nakedzero-hair-salon/hair-cut"
+              target="new"
+            >
+              Book Now
+            </Link>
+          </button>
         </div>
       </div>
     </section>

@@ -16,8 +16,7 @@ function InstagramEmbed() {
 
   return (
     <div className="py-16 items-center">
-      <h1 className="text-5xl font-extrabold my-10 text-center">Say Hi</h1>
-      <div className="flex justify-center align-middle">
+      <div className="flex justify-center w-full items-center">
         <div
           dangerouslySetInnerHTML={{
             __html: `

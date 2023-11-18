@@ -1,37 +1,30 @@
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import InstagramContent from "@/components/InstagramContent";
 import Location from "@/components/Location";
 import BookPopup from "@/components/BookPopup";
 import Appointment from "@/components/Appointment";
 import Services from "@/components/Services";
-import Link from "next/link";
 import CTAn from "@/components/CTAn";
-import Testimonial from "@/components/Testimonials1";
+import InstagramContent from "@/components/InstagramContent";
 import Testimonials from "@/components/Testimonials";
-import Testimonials3 from "@/components/Testimonials3";
-import Testimonials11 from "@/components/Testimonials11";
+
+import Carousel from "@/components/Carousel";
 export default function Page() {
   return (
     <>
       <header>
-        <div className="h-auto p-5">
-          <div className=" bg-primary rounded-full p-4  container mx-auto flex justify-around items-center w-2/3 backdrop-blur-sm bg-opacity-50">
-            <h1 className="text-4xl font-bold text-white text-center">
-              NakedzerO<br/>
+        <div className="h-auto w-full fixed inset-0 z-10 p-5">
+          <div className=" bg-cyan-200 rounded-full p-4 mx-auto flex justify-around items-center w-max sm:w-3/4 backdrop-blur-md bg-opacity-80">
+            <h1 className="text-5xl font-black text-white text-center">
+              NakedzerO
+              <br />
             </h1>
-            {/* <nav className="text-white">
-              <ul className="flex gap-5 max-md:hidden">
-                <li className="hover:text-gray-200">
-                  <Link href="#services">Our Services</Link>
-                </li>
-              </ul>
-            </nav> */}
           </div>
         </div>
       </header>
       <main>
+        <Carousel />
         <Hero />
         <div className="container h-auto  p-5 mx-auto text-center my-5">
           <h1 className="text-7xl font-black max-sm:text-6xl">
@@ -41,15 +34,17 @@ export default function Page() {
             Schedule Appointment
           </h5>
         </div>
-        <div className="mx-auto flex justify-center items-center align-middle w-4/5 max-sm:mb-10 pl-5">
-          <Appointment />
+        <div className="mx-auto flex justify-center items-center align-middle w-full max-sm:mb-10">
+          <div className="w-full translate-x-2">
+            <Appointment />
+          </div>
         </div>
         <Services />
         <CTAn />
         <BookPopup />
         <Location />
-        {/* <InstagramContent /> */}
         <Testimonials />
+        <InstagramContent />
         {/* <Testimonials11 /> */}
         <CTA />
       </main>
