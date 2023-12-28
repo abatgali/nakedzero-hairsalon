@@ -17,20 +17,18 @@ const Hero = () => {
   return (
     <section className="max-w-7xl mx-auto bg-base-100 flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 py-8 lg:py-20">
       <div className="flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start">
-      <h1 className="heading">
-      </h1>
+        <h1 className="heading">
+        </h1>
         <h1 className="heading font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
-          {'Give yourself a new look'.split('').map((char, index) => (
+          {'Crafting your Signature Look'.split('').map((char, index) => (
             <span key={index}>{char}</span>
           ))}
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-        NakedzerO Hair Salon is a full service salon located in the South of Indianapolis. We offer a wide range of services from haircuts, color, and styling to skin care products and hair treatments.
+          NakedzerO Hair Salon is a full service salon located in the South of Indianapolis. We offer a wide range of services from haircuts, color, and styling to skin care products and hair treatments.
         </p>
-        <a href="#services">
-          <button className="btn btn-primary btn-wide">
-            Our Services
-          </button>
+        <a href="#services" className="btn btn-primary btn-wide">
+          Our Services
         </a>
         <TestimonialsAvatars priority={true} />
       </div>
