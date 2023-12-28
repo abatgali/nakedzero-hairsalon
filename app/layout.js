@@ -1,10 +1,11 @@
-import { Inter } from "next/font/google";
+import { Akshar } from "next/font/google";
 import { getSEOTags } from "@/libs/seo";
 import ClientLayout from "@/components/LayoutClient";
 import config from "@/config";
 import "./globals.css";
+import Nav from "@/components/Nav";
 
-const font = Inter({ subsets: ["latin"] });
+const font = Akshar({ subsets: ["latin"] });
 
 export const viewport = {
   // Will use the primary color of your theme to show a nice theme color in the URL bar of supported browsers
@@ -31,7 +32,10 @@ export default function RootLayout({ children }) {
       )}
       <body>
         {/* ClientLayout contains all the client wrappers (Crisp chat support, toast messages, tooltips, etc.) */}
-        <ClientLayout>{children}</ClientLayout>
+        <ClientLayout>
+          <Nav />
+          {children}
+        </ClientLayout>
       </body>
     </html>
   );
