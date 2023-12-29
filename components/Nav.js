@@ -4,13 +4,13 @@ import React from "react";
 export default function Nav() {
   return (
     <header className="h-fit bg-stone-950 backdrop-blur-sm inset-0 top-0 z-50 fixed w-full">
-      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 pt-2">
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex h-auto items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <a className="block text-white" href="/">
               <span className="sr-only">Home</span>
               <div>
-                <span className="text-[45px] font-bold">NakedzerO</span> &nbsp;
+                <span className="text-[45px] font-bold max-sm:text-3xl">NakedzerO</span> &nbsp;
                 <span className="text-[32px] font-light max-lg:hidden pl-4">
                   Hair Salon
                 </span>
@@ -54,7 +54,7 @@ export default function Nav() {
             </nav>
 
             <div className="flex items-center gap-4">
-              <div className=" w-[145px] h-[43px] px-5 py-2.5 text-center text-white text-xl bg-orange-400 rounded-tl-[20px] rounded-br-[20px]">
+              <div className=" w-32 h-12  max-sm:h-8 px-5 py-2.5 max-sm:py-1 text-center text-white text-xl bg-orange-400 rounded-tl-[20px] rounded-br-[20px]">
                 <a className="" href="/">
                   Book Now
                 </a>
