@@ -1,0 +1,44 @@
+.ellipseone {
+  width: 98.3125rem;
+  height: 99.25rem;
+  flex-shrink: 0;
+  border-radius: 99.25rem;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(75, 0, 235, 0.6) 0%,
+    rgba(114, 50, 150, 0) 100%
+  );
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+}
+
+.ellipsetwo {
+  border-radius: 92.75rem;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #606b36 0%,
+    rgba(152, 0, 235, 0) 100%
+  );
+  width: 85.1875rem;
+  height: 92.75rem;
+  flex-shrink: 0;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  transform: translate(50%);
+}
+
+.ellipsethree {
+  border-radius: 83.3125rem;
+  background: #d9d9d9;
+  mix-blend-mode: color-burn;
+  filter: blur(12px);
+  width: 83.3125rem;
+  height: 79.25rem;
+  flex-shrink: 1;
+  top: 0;
+  transform: translateX(20%);
+}

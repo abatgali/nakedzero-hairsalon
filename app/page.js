@@ -10,7 +10,7 @@ export default function Page() {
     <>
       <main>
         <Hero />
-        <Services />
+        {/* <Services /> */}
         <CTAn />
         <Location />
         <Testimonials />
