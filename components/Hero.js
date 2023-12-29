@@ -23,7 +23,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="h-auto relative">
+      <div className="h-auto relative overflow-x-hidden">
         <div className="min-h-screen bg-gradient-to-b from-stone-950 to-teal-500">
           <div className="w-full h-auto">
             <Image
@@ -35,15 +35,15 @@ const Hero = () => {
             />
           </div>
           <div className="flex flex-row justify-between w-full">
-            <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 translate-y-[300px] z-20">
+            <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 sm:translate-y-[300px] translate-y-[220px] z-20">
               <div className="flex flex-col">
-                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold heading">
+                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold heading max-sm:backdrop-blur-sm max-sm:bg-black max-sm:bg-opacity-10">
                   Crafting your{" "}
-                  <span className="text-orange-400 ">Signature</span> Look
+                  <span className="text-orange-400">Signature</span> Look
                 </h1>
                 <p className="mt-8 w-full max-md:px-4 md:ml-auto lg:text-xl text-normal max-md:mx-auto md:pl-2">
-                  Discover the NakedzerO difference in the South Indianapolis,
-                  Greenwood area. Our expert stylists are dedicated to creating
+                  Discover the NakedzerO difference in the <u>South Indianapolis,
+                  Greenwood</u> area. Our expert stylists are dedicated to creating
                   hairstyles that capture your unique essence.
                   <span className="">
                     From cutting-edge cuts to vibrant colors and luxurious

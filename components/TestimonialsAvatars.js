@@ -50,7 +50,7 @@ const TestimonialsAvatars = ({ priority = false }) => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 text-yellow-500"
+              className="w-5 h-5 text-yellow-300"
               key={i}
             >
               <path
@@ -62,8 +62,8 @@ const TestimonialsAvatars = ({ priority = false }) => {
           ))}
         </div>
 
-        <div className="text-base text-base-content/80">
-          <span className="font-semibold text-base-content">1000+</span> makeovers since 2019
+        <div className="text-base text-gray-200">
+          <span className="font-semibold text-base-content">1600+</span> makeovers since 2019
         </div>
       </div>
     </div>
