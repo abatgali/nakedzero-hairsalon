@@ -1,13 +1,13 @@
 .imgOneDiv {
-  width: 22.3125rem;
+  width: 22rem;
   height: 30rem;
   flex-shrink: 0;
-  border-radius: 8.75rem 0rem 0rem 0rem;
+  border-radius: 8.75rem 0rem 8.75rem 0rem;
   background: #d9d9d9;
 }
 
 .imgOne {
-  border-radius: 8.75rem 0rem 0rem 0rem;
+  border-radius: 0rem 8.75rem 0rem 8.75rem;
   background: url("../../public/images/guy.png"),
     lightgray 50% / cover no-repeat;
   background-position: left top;
@@ -26,4 +26,19 @@
   background: url("../../public/images/IMG_0239.PNG"),
     lightgray 50% / cover no-repeat;
   background-position: center;
+}
+
+.imgThreeDiv {
+  width: 25rem;
+  height: 29rem;
+  flex-shrink: 0;
+  border-radius: 13rem 13rem 0rem 0rem;
+  background: #d9d9d9;
+  box-shadow: 0px 16px 31.5px 7px rgba(0, 0, 0, 0.25);
+}
+
+.imgThree {
+  border-radius: 9rem 0rem 8rem 9rem;
+  background: url("../../public/images/third.png"),
+    lightgray 50% / cover no-repeat;
 }

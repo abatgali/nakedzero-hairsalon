@@ -54,6 +54,10 @@ module.exports = {
           "50%": { backgroundPosition: "100% 50%" },
           "100%": { backgroundPosition: "0% 50%" },
         },
+
+        scale: {
+          "-1": "-1",
+        },
       },
     },
   },
@@ -65,23 +69,23 @@ module.exports = {
     // https://daisyui.com/
     themes: ["forest", "dark"],
     mytheme: {
-      'primary': "#76D600",
+      primary: "#76D600",
 
-      'secondary': "#32E094",
+      secondary: "#32E094",
 
-      'accent': "#88AB5E",
+      accent: "#88AB5E",
 
-      'neutral': "#6A785A",
+      neutral: "#6A785A",
 
-      'base-100': "#2B3321",
+      "base-100": "#2B3321",
 
-      'info': "#3abff8",
+      info: "#3abff8",
 
-      'success': "#36d399",
+      success: "#36d399",
 
-      'warning': "#fbbd23",
+      warning: "#fbbd23",
 
-      'error': "#f87272",
+      error: "#f87272",
     },
   },
 };

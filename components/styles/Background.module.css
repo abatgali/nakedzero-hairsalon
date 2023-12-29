@@ -38,7 +38,6 @@
   filter: blur(12px);
   width: 83.3125rem;
   height: 79.25rem;
-  flex-shrink: 1;
-  top: 0;
+  flex-shrink: 0;
   transform: translateX(20%);
 }

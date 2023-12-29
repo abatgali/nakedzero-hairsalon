@@ -23,7 +23,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="h-auto relative overflow-x-hidden">
+      <div className="h-auto relative overflow-x-hidden overflow-y-hidden">
         <div className="min-h-screen bg-gradient-to-b from-stone-950 to-teal-500">
           <div className="w-full h-auto">
             <Image
@@ -35,17 +35,17 @@ const Hero = () => {
             />
           </div>
           <div className="flex flex-row justify-between w-full">
-            <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 sm:translate-y-[300px] translate-y-[220px] z-20">
-              <div className="flex flex-col">
-                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold heading max-sm:backdrop-blur-sm max-sm:bg-black max-sm:bg-opacity-10">
+            <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 sm:translate-y-[250px] md:translate-y-[120px] lg:translate-y-[300px] translate-y-[400px] z-20">
+              <div className="flex flex-col max-sm:backdrop-blur-sm max-sm:bg-black max-sm:bg-opacity-10 pt-4">
+                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold heading ">
                   Crafting your{" "}
                   <span className="text-orange-400">Signature</span> Look
                 </h1>
                 <p className="mt-8 w-full max-md:px-4 md:ml-auto lg:text-xl text-normal max-md:mx-auto md:pl-2">
                   Discover the NakedzerO difference in the <u>South Indianapolis,
-                  Greenwood</u> area. Our expert stylists are dedicated to creating
+                  Greenwood</u> area.<span className="max-sm:hidden"> Our expert stylists are dedicated to creating
                   hairstyles that capture your unique essence.
-                  <span className="">
+                  
                     From cutting-edge cuts to vibrant colors and luxurious
                     treatments, we specialize in personalizing your haircare
                     experience. Embrace a new you with our exclusive hair care
@@ -71,13 +71,14 @@ const Hero = () => {
             </div>
             <HeroImages />
           </div>
-        </div>
-        <div id="ellipseone" className={` ${styles.ellipseone} `}></div>
-        <div id="ellipsetwo" className={` ${styles.ellipsetwo} `}></div>
-        <div
+          <div
           id="ellipsethree"
-          className={` ${styles.ellipsethree} fixed z-10`}
+          className={` ${styles.ellipsethree} z-10 absolute top-0`}
         ></div>
+        </div>
+        <div id="ellipseone" className={` ${styles.ellipseone}`}></div>
+        <div id="ellipsetwo" className={` ${styles.ellipsetwo} `}></div>
+        
       </div>
     </>
   );
