@@ -43,9 +43,9 @@ export default function HeroImages() {
       ref={containerRef}
       style={{ height: containerHeight }} // Apply the calculated height
     >
-      <div className={`${styles.imgTwoDiv} ${styles.imgTwo} max-sm:-translate-x-[100px] max-sm:translate-y-[50px]`}></div>
+      <div className={`${styles.imgTwoDiv} ${styles.imgOne} max-sm:-translate-x-[100px] max-sm:translate-y-[50px] scale-x-[-1]`}></div>
       <div className={`${styles.imgThreeDiv} ${styles.imgThree} sm:-translate-y-[300px] sm:translate-x-[350px] max-sm:hidden`}></div>
-      <div className={`${styles.imgOneDiv} ${styles.imgOne} -translate-y-[420px] translate-x-[200px] sm:-translate-y-[600px] sm:translate-x-1/3 scale-x-[-1] `}></div>
+      <div className={`${styles.imgOneDiv} ${styles.imgTwo} -translate-y-[420px] translate-x-[200px] sm:-translate-y-[600px] sm:translate-x-1/3  `}></div>
     </div>
   );
 }
