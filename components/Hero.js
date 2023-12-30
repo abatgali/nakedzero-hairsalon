@@ -12,7 +12,7 @@ import Link from "next/link";
 const Hero = () => {
   useEffect(() => {
     gsap.fromTo(
-      ".heading span",
+      ".heading",
       { opacity: 0, y: 20 },
       {
         opacity: 1,
@@ -26,8 +26,8 @@ const Hero = () => {
   return (
     <>
       <div className="h-auto relative overflow-x-hidden overflow-y-hidden">
-        <div className="min-h-screen md:h-screen bg-gradient-to-b from-stone-950 to-teal-500">
-          <div className="w-full h-auto">
+        <div className="min-h-screen bg-gradient-to-b from-stone-950 to-teal-500">
+          <div className={`w-full h-auto`}>
             <Image
               className="mix-blend-overlay opacity-20"
               src={texture}
@@ -83,6 +83,9 @@ const Hero = () => {
         </div>
         <div id="ellipseone" className={` ${styles.ellipseone}`}></div>
         <div id="ellipsetwo" className={` ${styles.ellipsetwo} `}></div>
+        <div id="services"></div>
+        {/* <div className="new-element" style={{position: 'absolute', bottom: '0', height: '250px', width: '100%', backgroundColor: 'blue'}}>
+        </div> */}
       </div>
     </>
   );

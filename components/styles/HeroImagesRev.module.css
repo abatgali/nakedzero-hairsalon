@@ -1,0 +1,102 @@
+/* Define the base styles for your hero image container */
+.heroImagesContainer {
+  position: relative; /* allows absolute positioning of children */
+  width: 100%; /* full width of the hero section */
+  height: auto; /* height is set to scale with content */
+  display: flex; /* allows for flexible layouts */
+  justify-content: center; /* centers children horizontally */
+  align-items: center; /* centers children vertically */
+}
+
+/* Base styles for each hero image */
+.heroImage {
+  position: absolute; /* positioned absolutely within the container */
+  background-size: cover; /* ensures the image covers the element */
+  background-position: center; /* centers the background image */
+  transition: transform 0.3s ease; /* smooth transition for hover effects */
+}
+
+/* Positioning and sizing for each specific image */
+.heroImage1 {
+  top: 0; /* adjust as necessary for your layout */
+  left: 0; /* adjust as necessary for your layout */
+  width: 20%; /* adjust as necessary for your layout */
+  height: auto; /* adjust as necessary for your layout */
+  z-index: 1; /* ensures stacking order */
+}
+
+.heroImage2 {
+  top: 0; /* adjust as necessary for your layout */
+  right: 0; /* adjust as necessary for your layout */
+  width: 20%; /* adjust as necessary for your layout */
+  height: auto; /* adjust as necessary for your layout */
+  z-index: 2; /* ensures stacking order */
+}
+
+.heroImage3 {
+  bottom: 0; /* adjust as necessary for your layout */
+  left: 50%; /* adjust as necessary for your layout */
+  transform: translateX(-50%), translateY(20%); /* centers the image horizontally */
+  width: 25%; /* adjust as necessary for your layout */
+  height: auto; /* adjust as necessary for your layout */
+  z-index: 3; /* ensures stacking order */
+}
+
+/* Hover effect for images */
+.heroImage:hover {
+  transform: scale(1.1); /* slightly enlarges the image on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Adjust sizes and positions for tablet screens */
+}
+
+@media (max-width: 480px) {
+  /* Adjust sizes and positions for mobile screens */
+}
+
+.imgOneDiv {
+  width: 22rem;
+  height: 28rem;
+  flex-shrink: 0;
+  border-radius: 8.75rem 0rem 8.75rem 0rem;
+  background: #d9d9d9;
+}
+
+.imgTwoDiv {
+  border-radius: 0rem 8.75rem 0rem 9.375rem;
+  background: #d9d9d9;
+  width: 22.3125rem;
+  height: 30.125rem;
+  flex-shrink: 0;
+  box-shadow: 0px 16px 31.5px 7px rgba(0, 0, 0, 0.25);
+}
+
+.imgThreeDiv {
+  width: 25rem;
+  height: 29rem;
+  flex-shrink: 0;
+  border-radius: 13rem 13rem 0rem 0rem;
+  background: #d9d9d9;
+  box-shadow: 0px 16px 31.5px 7px rgba(0, 0, 0, 0.25);
+}
+
+.imgOne {
+  border-radius: 0rem 8.75rem 0rem 8.75rem;
+  background: url("../../public/images/guy.png"),
+    lightgray 50% / cover no-repeat;
+  background-position: left top;
+}
+
+.imgTwo {
+  background: url("../../public/images/IMG_0239.PNG"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+}
+
+.imgThree {
+  border-radius: 9rem 0rem 8rem 9rem;
+  background: url("../../public/images/third.png"),
+    lightgray 50% / cover no-repeat;
+}
