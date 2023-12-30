@@ -8,15 +8,16 @@ import Testimonials from "@/components/Testimonials";
 export default function Page() {
   return (
     <>
-      <main>
-        <Hero />
+      <Hero />
+      <div className=" z-40">
         {/* <Services /> */}
         <CTAn />
         <Location />
         <Testimonials />
         <CTA />
-      </main>
-      <Footer />
+
+        <Footer />
+      </div>
     </>
   );
 }

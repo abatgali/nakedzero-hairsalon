@@ -1,6 +1,6 @@
 export default function Location() {
   return (
-    <div className=" flex justify-center pt-10 flex-col h-screen mb-24">
+    <div className=" flex justify-center pt-10 flex-col h-screen mb-24" id="location">
       <h1 className="text-6xl font-extrabold mt-12 text-center">
         Where We Are
       </h1>
@@ -22,6 +22,7 @@ export default function Location() {
         className="w-full md:w-4/5 mx-auto h-3/4"
         // Add the disableDefaultUI parameter to remove extra map icons
         sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+        disableDefaultUI="true"
       ></iframe>
 
     </div>
