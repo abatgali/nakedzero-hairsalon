@@ -74,12 +74,14 @@ const Hero = () => {
                     </div>
                   </AppointmentLink>
                 </div>
-                <div className="mt-4 md:ml-auto">
+                <div className="mt-4 md:ml-auto heading">
                   <TestimonialsAvatars />
                 </div>
               </div>
             </div>
-            <HeroImages />
+            <div className="heading z-10">
+              <HeroImages />
+            </div>
           </div>
           <div
             id="ellipsethree"
