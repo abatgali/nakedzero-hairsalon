@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import skincare from "../public/images/IMG_0246.png";
+import skincare from "@/public/images/IMG_0246.png";
 import styles from "./styles/Background.module.css";
-import haircare from "../public/images/IMG_0244.png";
+import haircare from "@/public/images/IMG_0244.png";
 
 export default function CTAn() {
   return (
