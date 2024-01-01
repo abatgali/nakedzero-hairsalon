@@ -28,16 +28,15 @@ export default function CTAn() {
                   </p>
 
                   <div className="mt-4 md:mt-8 ">
-                    <div className="rounded-tl-[40px] rounded-br-[40px] border-white bg-white px-12 py-3 text-sm font-medium text-black transition hover:bg-black hover:text-white focus:outline-none focus:ring focus:ring-yellow-400">
-                      <Link href="/products" target="new">
+                    <a href="/products" target="new">
+                      <div className="rounded-tl-[40px] rounded-br-[40px] border-white bg-white px-12 py-3 text-sm font-medium text-black transition hover:bg-black hover:text-white focus:outline-none focus:ring focus:ring-yellow-400">
                         Our Products
-                      </Link>
-                    </div>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-
             <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
               <div
                 className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage3}`}

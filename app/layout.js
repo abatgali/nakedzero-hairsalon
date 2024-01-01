@@ -4,6 +4,7 @@ import ClientLayout from "@/components/LayoutClient";
 import config from "@/config";
 import "./globals.css";
 import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 const font = Akshar({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <ClientLayout>
           <Nav />
           {children}
+          <Footer />
         </ClientLayout>
       </body>
     </html>

@@ -61,12 +61,12 @@ const Hero = () => {
                   Let us help you unveil a look that&apos;s unmistakably yours.
                 </p>
                 <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center md:text-xl md:font-medium text-sm font-normal">
-                  <Link href="/products">
+                  <a href="/products">
                     <div className="w-32 md:w-[216px] md:h-[60px] bg-blue-950 hover:bg-black rounded-tl-[40px] rounded-br-[40px] py-4 shadow-lg hover:shadow-2xl">
                       {" "}
                       Our Products{" "}
                     </div>
-                  </Link>
+                  </a>
                   <AppointmentLink>
                     <div className="hover:bg-teal-600 w-36 md:w-[216px] md:h-[60px] bg-orange-400 rounded-tl-[40px] rounded-br-[40px] py-4 shadow-lg hover:shadow-2xl">
                       {" "}
