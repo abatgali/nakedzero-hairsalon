@@ -36,16 +36,19 @@ const Hero = () => {
               objectFit="cover"
             />
           </div>
-          <div className="flex flex-row justify-between w-full">
-            <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 sm:translate-y-[250px] md:translate-y-[120px] lg:translate-y-[250px] translate-y-[320px] z-20">
-              <div className="flex flex-col max-sm:backdrop-blur-sm max-sm:bg-black max-sm:bg-opacity-30 pt-4">
+          <div className="flex flex-row sm:flex-col justify-between w-full">
+            <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 sm:translate-y-[250px] md:translate-y-[120px] lg:translate-y-[250px] translate-y-[450px] z-20">
+              <div className="flex flex-col max-md:backdrop-blur-md max-sm:bg-black max-sm:bg-opacity-30 pt-4">
                 <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold heading ">
                   Crafting your{" "}
                   <span className="text-orange-400">Signature</span> Look
                 </h1>
-                <p className="mt-8 w-full max-md:px-4 md:ml-auto lg:text-xl text-normal max-md:mx-auto md:pl-2">
+                <p className="mt-4 sm:mt-8 w-full max-md:px-4 md:ml-auto lg:text-xl text-normal max-md:mx-auto md:pl-2">
                   Discover the NakedzerO difference in the{" "}
-                  <Link href="#location"><u>South Indianapolis, Greenwood</u></Link> area.
+                  <Link href="#location">
+                    <u>South Indianapolis, Greenwood</u>
+                  </Link>{" "}
+                  area.
                   <span className="max-sm:hidden">
                     {" "}
                     Our expert stylists are dedicated to creating hairstyles
@@ -57,20 +60,22 @@ const Hero = () => {
                   </span>{" "}
                   Let us help you unveil a look that&apos;s unmistakably yours.
                 </p>
-                <div className="mt-4 md:ml-auto">
-                  <TestimonialsAvatars />
-                </div>
-                <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto sm:ml-auto my-8 sm:mt-12 text-center md:text-xl md:font-medium text-sm font-normal">
-                  <div className="w-32 md:w-[216px] md:h-[60px] bg-indigo-950 hover:bg-indigo-800 rounded-tl-[40px] rounded-br-[40px] py-4 shadow-lg hover:shadow-2xl">
-                    {" "}
-                    Our Products{" "}
-                  </div>
+                <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center md:text-xl md:font-medium text-sm font-normal">
+                  <Link href="/products">
+                    <div className="w-32 md:w-[216px] md:h-[60px] bg-blue-950 hover:bg-black rounded-tl-[40px] rounded-br-[40px] py-4 shadow-lg hover:shadow-2xl">
+                      {" "}
+                      Our Products{" "}
+                    </div>
+                  </Link>
                   <AppointmentLink>
-                    <div className="hover:bg-amber-900 w-36 md:w-[216px] md:h-[60px] bg-orange-400 rounded-tl-[40px] rounded-br-[40px] py-4 shadow-lg hover:shadow-2xl">
+                    <div className="hover:bg-teal-600 w-36 md:w-[216px] md:h-[60px] bg-orange-400 rounded-tl-[40px] rounded-br-[40px] py-4 shadow-lg hover:shadow-2xl">
                       {" "}
                       Book Appointment
                     </div>
                   </AppointmentLink>
+                </div>
+                <div className="mt-4 md:ml-auto">
+                  <TestimonialsAvatars />
                 </div>
               </div>
             </div>
@@ -83,9 +88,6 @@ const Hero = () => {
         </div>
         <div id="ellipseone" className={` ${styles.ellipseone}`}></div>
         <div id="ellipsetwo" className={` ${styles.ellipsetwo} `}></div>
-        <div id="services"></div>
-        {/* <div className="new-element" style={{position: 'absolute', bottom: '0', height: '250px', width: '100%', backgroundColor: 'blue'}}>
-        </div> */}
       </div>
     </>
   );

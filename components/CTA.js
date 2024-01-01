@@ -19,14 +19,14 @@ const CTA = () => {
             Ready for the makeover you imagined? Book an appointment today!
           </p>
 
-          <button className="btn btn-primary btn-wide">
-            <Link
-              href="https://cal.com/team/nakedzero-hair-salon/hair-cut"
-              target="new"
-            >
+          <Link
+            href="#appointment"
+            target="new"
+          >
+            <button className="bg-orange-400 rounded-tl-[40px] rounded-br-[40px] text-white font-md py-2 px-4 rounded-full my-10 w-48 btn">
               Book Now
-            </Link>
-          </button>
+            </button>
+          </Link>
         </div>
       </div>
     </section>

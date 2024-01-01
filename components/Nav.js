@@ -59,7 +59,7 @@ export default function Nav() {
 
             <div className="flex items-center gap-4">
               <AppointmentLink>
-                <div className=" w-32 h-12  max-sm:h-8 px-5 py-2.5 max-sm:py-1 text-center text-white text-xl bg-orange-400 rounded-tl-[20px] rounded-br-[20px] hover:bg-amber-800 hover:shadow-xl hover:shadow-slate-800">
+                <div className=" w-32 h-12  max-sm:h-8 px-5 py-2.5 max-sm:py-1 text-center text-white text-xl bg-orange-400 rounded-tl-[20px] rounded-br-[20px] hover:bg-teal-600 hover:shadow-xl hover:shadow-slate-800">
                   Book Now
                 </div>
               </AppointmentLink>

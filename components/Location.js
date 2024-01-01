@@ -9,7 +9,7 @@ export default function Location() {
       </h3>
       <p className="text-xl text-center"><u>Monday - Sunday</u><br/><span className="font-bold">11:00 AM to 8:00 PM</span></p>
       <a href="https://maps.google.com/maps/dir//Mui+Le+Sam+By+Nakedzero+Hair+Salon+8319+US+31+S+Indianapolis,+IN+46227/@39.6451741,-86.1324631,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x886b5dcc43cae7df:0x186193e086ca2e9a" className="mx-auto" target="new">
-        <button className="bg-primary text-white font-bold py-2 px-4 rounded-full my-10 w-48 btn">
+        <button className="bg-orange-400 rounded-tl-[40px] rounded-br-[40px] text-white font-md py-2 px-4 rounded-full my-10 w-48 btn">
           Get Directions
         </button>
       </a>
