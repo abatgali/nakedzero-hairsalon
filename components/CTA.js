@@ -16,14 +16,21 @@ const CTA = () => {
             Treat yourself to a new look
           </h2>
           <p className="text-lg opacity-80 mb-12 md:mb-16">
-            Ready for the makeover you imagined? Book an appointment today!
+            Ready for the makeover you imagined? Check out our products and book an appointment today!
           </p>
 
-          <Link href="#appointment">
-            <button className="bg-orange-400 rounded-tl-[40px] rounded-br-[40px] text-white font-md py-2 px-4 rounded-full my-10 w-48 btn">
-              Book Now
-            </button>
-          </Link>
+          <div className="flex sm:space-x-4 max-sm:flex-col">
+            <a href="/products">
+              <button className="bg-blue-500 rounded-tl-[40px] rounded-br-[40px] text-white font-md py-2 px-4 rounded-full sm:my-10 w-48 btn my-4">
+                View Products
+              </button>
+            </a>
+            <Link href="#appointment">
+              <button className="bg-orange-400 rounded-tl-[40px] rounded-br-[40px] text-white font-md py-2 px-4 rounded-full sm:my-10 w-48 btn my-4">
+                Book Now
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

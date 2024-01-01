@@ -35,7 +35,7 @@ export default function Nav() {
                   </a>
                 </li>
 
-                <li>
+                {/* <li>
                   <Link
                     className="text-gray-500 transition hover:text-gray-500/75"
                     href="#services"
@@ -43,12 +43,12 @@ export default function Nav() {
                     {" "}
                     Services{" "}
                   </Link>
-                </li>
+                </li> */}
 
                 <li>
                   <Link
                     className="text-gray-500 transition hover:text-gray-500/75"
-                    href="#location"
+                    href="/#location"
                   >
                     {" "}
                     Location{" "}
