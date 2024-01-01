@@ -49,3 +49,19 @@
   background-position: center;
   opacity: 1;
 }
+
+.bgImage2 {
+  background-image: url('../../public/images/IMG_0246.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+
+.bgImage3 {
+  background-image: url('../../public/images/IMG_0244.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}

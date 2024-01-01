@@ -1,9 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import skincare from "@/public/images/IMG_0246.png";
 import styles from "./styles/Background.module.css";
-import haircare from "@/public/images/IMG_0244.png";
 
 export default function CTAn() {
   return (
@@ -11,10 +9,8 @@ export default function CTAn() {
       <section className="">
         <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div
-              className={`  z-10 ${styles.bgImage}`}
-            >
-              <div className="w-full h-full p-8 md:p-12 lg:px-16 lg:py-24 bg-opacity-10 bg-orange-600">
+            <div className={`z-10 ${styles.bgImage}`}>
+              <div className="w-full h-full p-8 md:p-12 lg:px-16 lg:py-24 bg-opacity-30 bg-teal-800">
                 <div className="mx-auto max-w-xl text-center  ">
                   <h2 className="text-2xl font-bold text-white md:text-3xl">
                     Discover Your Best Hair Yet!
@@ -43,21 +39,12 @@ export default function CTAn() {
             </div>
 
             <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
-              <Image
-                alt="Hair dyeing"
-                src={haircare}
-                className="h-40 w-full object-cover sm:h-56 md:h-full"
-                width={1260}
-                height={750}
-              />
-
-              <Image
-                alt="Permanent hair curling"
-                src={skincare}
-                className="h-40 w-full object-cover sm:h-56 md:h-full"
-                width={1260}
-                height={750}
-              />
+              <div
+                className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage3}`}
+              ></div>
+              <div
+                className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage2}`}
+              ></div>
             </div>
           </div>
         </div>

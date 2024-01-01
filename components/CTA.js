@@ -19,10 +19,7 @@ const CTA = () => {
             Ready for the makeover you imagined? Book an appointment today!
           </p>
 
-          <Link
-            href="#appointment"
-            target="new"
-          >
+          <Link href="#appointment">
             <button className="bg-orange-400 rounded-tl-[40px] rounded-br-[40px] text-white font-md py-2 px-4 rounded-full my-10 w-48 btn">
               Book Now
             </button>
