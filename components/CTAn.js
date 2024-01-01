@@ -28,7 +28,7 @@ export default function CTAn() {
                   </p>
 
                   <div className="mt-4 md:mt-8 ">
-                    <a href="/products" target="new">
+                    <a href="/products">
                       <div className="rounded-tl-[40px] rounded-br-[40px] border-white bg-white px-12 py-3 text-sm font-medium text-black transition hover:bg-black hover:text-white focus:outline-none focus:ring focus:ring-yellow-400">
                         Our Products
                       </div>
