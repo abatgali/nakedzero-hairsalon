@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Appointment() {
   return (
-    <div id="appointment" className="my-4 sm:py-24 bg-gray-100 ">
+    <div id="appointment" className=" sm:py-24 bg-gray-100 ">
       <h1 className="text-6xl max-sm:hidden  font-extrabold text-center mb-4">
         Book an Appointment
       </h1>
