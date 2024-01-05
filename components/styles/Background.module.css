@@ -65,3 +65,41 @@
   background-position: center;
   opacity: 1;
 }
+
+.bgImageSkincare {
+  position: relative;
+}
+
+.bgImageSkincare::before {
+  content: "";
+  background-image: url('https://storage.googleapis.com/allprojectsdata/nakedzerosalon/skincare.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.bgImageHaircare {
+  position: relative;
+}
+
+.bgImageHaircare::before {
+  content: "";
+  background-image: url('https://storage.googleapis.com/allprojectsdata/nakedzerosalon/haircare.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}

@@ -39,10 +39,10 @@ export default function CTAn() {
             </div>
             <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
               <div
-                className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage3}`}
+                className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage2}`}
               ></div>
               <div
-                className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage2}`}
+                className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage3}`}
               ></div>
             </div>
           </div>
