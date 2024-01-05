@@ -6,7 +6,7 @@ import { CiLocationOn } from "react-icons/ci";
 export default function Nav() {
   return (
     <header className="h-fit bg-stone-950 backdrop-blur-sm inset-0 top-0 z-50 fixed w-full">
-      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 sm:pt-4 py-2">
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 sm:pt-4 pt-2">
         <div className="flex w-full gap-2 max-sm:hidden">
           <a
             href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
