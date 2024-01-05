@@ -7,7 +7,7 @@ export default function Nav() {
   return (
     <header className="h-fit bg-stone-950 backdrop-blur-sm inset-0 top-0 z-50 fixed w-full">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 sm:pt-4 py-2">
-        <div className="flex w-full gap-2">
+        <div className="flex w-full gap-2 max-sm:hidden">
           <a
             href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
             className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
@@ -104,6 +104,24 @@ export default function Nav() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex w-full gap-2 sm:hidden">
+          <a
+            href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
+            className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
+            target="new"
+          >
+            <CiLocationOn />
+            <span>8319 US 31 S</span>
+          </a>
+          <span className="text-gray-500">|</span>
+          <a
+            href="tel:1234567890"
+            className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
+          >
+            <MdOutlineLocalPhone />
+            <span>317-701-7294</span>
+          </a>
         </div>
       </div>
     </header>

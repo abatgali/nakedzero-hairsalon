@@ -1,7 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import config from "@/config";
-import logo from "@/app/icon.png";
+import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineLocalPhone } from "react-icons/md";
 // Add the Footer to the bottom of your landing page and more.
 // The support link is connected to the config.js file. If there's no config.mailgun.supportEmail, the link won't be displayed.
@@ -21,18 +20,24 @@ const Footer = () => {
                 {config.appName}
               </strong>
             </Link>
-            <div className="flex flex-col">
-              <div>
-                8319 US 31 S, Indianapolis, IN 46227
-              </div>
-              <a
-                href="tel:1234567890"
-                className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
-              >
-                <MdOutlineLocalPhone />
-                <span>317-701-7294</span>
-              </a>
-            </div>
+            <div className="flex w-full gap-2">
+          <a
+            href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
+            className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
+            target="new"
+          >
+            <CiLocationOn />
+            <span>8319 US 31 S</span>
+          </a>
+          <span className="text-gray-500">|</span>
+          <a
+            href="tel:1234567890"
+            className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
+          >
+            <MdOutlineLocalPhone />
+            <span>317-701-7294</span>
+          </a>
+        </div>
             <p className="mt-3 text-sm text-base-content/80">
               {config.appDescription}
             </p>
