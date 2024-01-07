@@ -57,12 +57,12 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center">
                   <a href="/products">
-                    <button className="bg-indigo-700 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-black rounded-md text-lg mr-4 hover:bg-blue-700 transition duration-300">
+                    <button className="bg-blue-800 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-blue-800 rounded-md text-lg mr-4 hover:bg-blue-700 transition duration-300">
                       Our Products
                     </button>
                   </a>
                   <AppointmentLink>
-                    <button className="bg-white bg-opacity-30 backdrop-blur-sm hover:bg-orange-400 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-white  rounded-md text-lg mr-4 transition duration-300">
+                    <button className="bg-orange-400 backdrop-blur-sm hover:bg-transparent rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-orange-400  rounded-md text-lg mr-4 transition duration-300">
                       Book Appointment
                     </button>
                   </AppointmentLink>
