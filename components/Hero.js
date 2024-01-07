@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-auto relative overflow-x-hidden overflow-y-hidden">
-        <div className="min-h-screen bg-gradient-to-b from-black via-teal-800 to-teal-500">
+        <div className="min-h-screen bg-gradient-to-b from-black via-teal-800 to-teal-700">
           <div className={`w-full h-auto`}>
             <Image
               className="mix-blend-overlay opacity-20"
