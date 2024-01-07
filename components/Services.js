@@ -34,7 +34,7 @@ export default function Services() {
             </ul>
           </div>
           <div>
-            <h3 className="text-4xl font-bold mb-4">Facial</h3>
+            <h3 className="text-4xl font-bold mb-4">Facial Care</h3>
             <ul className="list-disc list-inside">
               <li>Face Steaming</li>
               <li>Deep Cleaning</li>
