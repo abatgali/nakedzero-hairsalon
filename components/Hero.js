@@ -48,17 +48,13 @@ const Hero = () => {
                   <Link href="#location">
                     <u>South Indianapolis, Greenwood</u>
                   </Link>{" "}
-                  area.
-                  <span className="max-sm:hidden">
-                    {" "}
-                    Our expert stylists are dedicated to creating hairstyles
-                    that capture your unique essence. From cutting-edge cuts to
-                    vibrant colors and luxurious treatments, we specialize in
-                    personalizing your haircare experience. Embrace a new you
-                    with our exclusive hair care products and innovative
-                    styling, all tailored to your individual style.
-                  </span>{" "}
-                  Let us help you unveil a look that&apos;s unmistakably yours.
+                  area. Our expert stylists are dedicated to creating hairstyles
+                  that capture your unique essence. From cutting-edge cuts to
+                  vibrant colors and luxurious treatments, we specialize in
+                  personalizing your haircare experience. Embrace a new you with
+                  our exclusive hair care products and innovative styling, all
+                  tailored to your individual style. Let us help you unveil a
+                  look that&apos;s unmistakably yours.
                 </p>
                 <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center md:text-xl md:font-medium text-sm font-normal">
                   <a href="/products">
@@ -74,9 +70,6 @@ const Hero = () => {
                     </div>
                   </AppointmentLink>
                 </div>
-                {/* <div className="mt-4 md:ml-auto heading">
-                  <TestimonialsAvatars />
-                </div> */}
               </div>
             </div>
             <div className="heading z-10">

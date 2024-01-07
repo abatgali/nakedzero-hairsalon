@@ -7,7 +7,7 @@ import { LuSparkles } from "react-icons/lu";
 // Define the ServiceBox component
 const ServiceBox = ({ icon, title, description, listItems }) => {
   return (
-    <div className="flex sm:w-[340px] flex-col items-center p-6 bg-gradient-to-b from-black to-gray-800 text-white rounded-lg shadow-md hover:bg-gray-800 transition duration-300 ease-in-out">
+    <div className="flex sm:w-[340px] flex-col items-center p-6 bg-gradient-to-b from-black to-gray-800 text-white  shadow-md transition duration-300 ease-in-out">
       <div className="mb-4 text-orange-400">{icon}</div>
       <h3 className="text-lg font-semibold mb-2">{title}</h3>
       <p className="text-sm w-4/5 mx-auto text-center mb-4">{description}</p>
@@ -33,10 +33,10 @@ const ServiceList = ({ items }) => {
 const ServicesSection = () => {
   return (
     <>
-      <h1 className="text-5xl font-bold text-center mb-8 mt-16" id="services">
+      <h1 className="text-5xl font-bold text-center mb-8 mt-16 sm:mt-48" id="services">
         Our Services
       </h1>
-      <div className="flex flex-wrap justify-between items-center p-8 gap-6 w-full md:w-4/5 mx-auto">
+      <div className="flex flex-wrap justify-around items-center p-8 gap-6 w-full lg:w-4/5 mx-auto">
         <ServiceBox
           icon={<PiScissorsLight className="text-4xl" />}
           title="Shape & Style"

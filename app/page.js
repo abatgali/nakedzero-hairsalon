@@ -1,7 +1,6 @@
 import CTA from "@/components/CTA";
 import Hero from "@/components/Hero";
 import Location from "@/components/Location";
-import Services from "@/components/Services";
 import HeroSection from "@/components/HeroSection";
 import CTAn from "@/components/CTAn";
 import Testimonials from "@/components/Testimonials";
@@ -13,7 +12,6 @@ export default function Page() {
       <HeroSection />
       <Hero />
       <ServicesSection/>
-      {/* <Services /> */}
       <CTAn />
       <Location />
       <Appointment />
