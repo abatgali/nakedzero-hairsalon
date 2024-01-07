@@ -11,7 +11,7 @@ export default function Products() {
           <div className={`sm:w-1/2 h-full w-full ${styles.bgImageHaircare}`}>
             <a href="/products/haircare">
               <div className={`h-full text-center relative translate-y-2/3`}>
-                <div className="bg-white bg-opacity-10 backdrop-blur-sm">
+                <div className="bg-white bg-opacity-20 backdrop-blur-sm w-fit mx-auto px-5 py-1 rounded-tl-[40px] rounded-br-[40px]">
                   <h1 className="text-4xl font-light">Haircare</h1>
                   <span className="max-sm:hidden">
                     <span className="hover:underline">
@@ -26,7 +26,7 @@ export default function Products() {
           <div className={`sm:w-1/2 h-full w-full ${styles.bgImageSkincare}`}>
             <a href="/products/skincare">
               <div className={`h-full text-center relative translate-y-2/3`}>
-                <div className="bg-black bg-opacity-20 backdrop-blur-sm">
+                <div className="bg-black bg-opacity-30 backdrop-blur-sm w-fit mx-auto px-5 py-1 rounded-tl-[40px] rounded-br-[40px]">
                   <h1 className="text-4xl font-light">Skincare</h1>
                   <span className="max-sm:hidden">
                     <span className="hover:underline max-sm:hidden">

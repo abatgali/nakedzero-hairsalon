@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import TestimonialsAvatars from "./TestimonialsAvatars";
 import styles from "./styles/Background.module.css";
 import { useEffect } from "react";
 import gsap from "gsap";
@@ -26,7 +25,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-auto relative overflow-x-hidden overflow-y-hidden">
-        <div className="min-h-screen bg-gradient-to-b from-stone-950 to-teal-500">
+        <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-teal-500">
           <div className={`w-full h-auto`}>
             <Image
               className="mix-blend-overlay opacity-20"

@@ -22,7 +22,7 @@ export default function Location() {
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        className="w-full md:w-4/5 mx-auto h-3/4"
+        className="w-full md:w-4/5 mx-auto h-[500px]"
         // Add the disableDefaultUI parameter to remove extra map icons
         sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
       ></iframe>
