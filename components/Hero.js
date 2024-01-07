@@ -74,9 +74,9 @@ const Hero = () => {
                     </div>
                   </AppointmentLink>
                 </div>
-                <div className="mt-4 md:ml-auto heading">
+                {/* <div className="mt-4 md:ml-auto heading">
                   <TestimonialsAvatars />
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="heading z-10">
