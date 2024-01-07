@@ -19,7 +19,7 @@ const HeroSection = () => {
         </p>
         <div>
           <Link href="#services">
-            <button className="bg-blue-500 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-blue-400 rounded-md text-lg mr-4 hover:bg-blue-700 transition duration-300">
+            <button className="bg-black rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-amber-400 rounded-md text-lg mr-4 hover:bg-emerald-700 transition duration-300">
               Our Services
             </button>
           </Link>

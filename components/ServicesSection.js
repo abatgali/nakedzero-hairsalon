@@ -7,7 +7,7 @@ import { LuSparkles } from "react-icons/lu";
 // Define the ServiceBox component
 const ServiceBox = ({ icon, title, description, listItems }) => {
   return (
-    <div className="flex sm:w-[340px] flex-col items-center p-6 bg-gradient-to-b from-black to-gray-800 text-white  shadow-md transition duration-300 ease-in-out">
+    <div className="flex sm:w-[340px] flex-col items-center p-6 bg-gradient-to-t from-black to-gray-600 text-white  shadow-md transition duration-300 ease-in-out">
       <div className="mb-4 text-orange-400">{icon}</div>
       <h3 className="text-lg font-semibold mb-2">{title}</h3>
       <p className="text-sm w-4/5 mx-auto text-center mb-4">{description}</p>
