@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <>
       <div className="h-auto relative overflow-x-hidden overflow-y-hidden">
-        <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-teal-500">
+        <div className="min-h-screen bg-gradient-to-b from-black via-teal-800 to-teal-500">
           <div className={`w-full h-auto`}>
             <Image
               className="mix-blend-overlay opacity-20"
@@ -55,18 +55,16 @@ const Hero = () => {
                   tailored to your individual style. Let us help you unveil a
                   look that&apos;s unmistakably yours.
                 </p>
-                <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center md:text-xl md:font-medium text-sm font-normal">
+                <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center">
                   <a href="/products">
-                    <div className="w-32 md:w-[216px] md:h-[60px] bg-blue-950 hover:bg-black rounded-tl-[40px] rounded-br-[40px] py-4 shadow-lg hover:shadow-2xl">
-                      {" "}
-                      Our Products{" "}
-                    </div>
+                    <button className="bg-indigo-700 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-black rounded-md text-lg mr-4 hover:bg-blue-700 transition duration-300">
+                      Our Products
+                    </button>
                   </a>
                   <AppointmentLink>
-                    <div className="hover:bg-teal-600 w-36 md:w-[216px] md:h-[60px] bg-orange-400 rounded-tl-[40px] rounded-br-[40px] py-4 shadow-lg hover:shadow-2xl">
-                      {" "}
+                    <button className="bg-white bg-opacity-30 backdrop-blur-sm hover:bg-orange-400 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-white  rounded-md text-lg mr-4 transition duration-300">
                       Book Appointment
-                    </div>
+                    </button>
                   </AppointmentLink>
                 </div>
               </div>

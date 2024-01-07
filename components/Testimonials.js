@@ -23,7 +23,7 @@ export default function Testimonials() {
             </Link>
           </div>
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="rounded-lg bg-gradient-to-bl to-slate-800 from-slate-400 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt="Man"
@@ -32,7 +32,7 @@ export default function Testimonials() {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-orange-400">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
@@ -80,14 +80,14 @@ export default function Testimonials() {
                   </p>
                 </div>
               </div>
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-300">
                 Nakedzero is a hidden gem and I can&apos;t recommend it enough.
                 If you&apos;re looking for exceptional service, a relaxing
                 ambiance, and top-notch results, this is the place.
               </p>
             </blockquote>
 
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="rounded-lg bg-gradient-to-bl to-slate-800 from-slate-400  p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt="Woman"
@@ -96,7 +96,7 @@ export default function Testimonials() {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-orange-400">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
@@ -145,7 +145,7 @@ export default function Testimonials() {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-300">
                 My stylist, Ryang, worked wonders with my hair. He took the time
                 to listen and gave me valuable suggestions. The end result was
                 nothing short of amazing. My haircut and color were exactly what
@@ -153,7 +153,7 @@ export default function Testimonials() {
               </p>
             </blockquote>
 
-            <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <blockquote className="rounded-lg bg-gradient-to-bl to-slate-800 from-slate-400 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt="Man"
@@ -162,7 +162,7 @@ export default function Testimonials() {
                 />
 
                 <div>
-                  <div className="flex justify-center gap-0.5 text-green-500">
+                  <div className="flex justify-center gap-0.5 text-orange-400">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
@@ -211,7 +211,7 @@ export default function Testimonials() {
                 </div>
               </div>
 
-              <p className="mt-4 text-gray-700">
+              <p className="mt-4 text-gray-300">
                 The attention to detail is truly commendable and salon&apos;s
                 convenient location is an added bonus for me.
               </p>

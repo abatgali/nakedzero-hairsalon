@@ -87,9 +87,9 @@ export default function Nav() {
 
               <div className="flex items-center gap-4">
                 <AppointmentLink>
-                  <div className=" w-32 h-12  max-sm:h-8 px-5 py-2.5 max-sm:py-1 text-center text-white text-xl bg-orange-400 rounded-tl-[20px] rounded-br-[20px] hover:bg-teal-600 hover:shadow-xl hover:shadow-slate-800">
-                    Book Now
-                  </div>
+                  <button className="bg-white bg-opacity-30 hover:bg-orange-400 border-2 border-white  rounded-sm rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg mr-4 transition duration-300">
+                    Book
+                  </button>
                 </AppointmentLink>
 
                 <div className=" hidden">
