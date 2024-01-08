@@ -21,17 +21,12 @@ export default function CTAn() {
                     for every hair type and texture. Elevate your daily routine
                     with our premium selections.
                   </p>
-                  {/* <p className="text-white/90 sm:mt-4 hidden sm:block">
-                    Our expert stylists recommend the finest products,
-                    incorporating the latest hair care innovations, to help you
-                    achieve and maintain your dream look.
-                  </p> */}
 
                   <div className="mt-4 md:mt-8 ">
                     <a href="/products">
-                      <div className="rounded-tl-[40px] rounded-br-[40px] border-white bg-white px-12 py-3 text-sm font-medium text-black transition hover:bg-black hover:text-white focus:outline-none focus:ring focus:ring-yellow-400">
+                      <button className="bg-black rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-amber-400 rounded-md text-lg mr-4 hover:bg-emerald-700 transition duration-300">
                         Find Products
-                      </div>
+                      </button>
                     </a>
                   </div>
                 </div>
