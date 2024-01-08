@@ -1,34 +1,22 @@
-"use client";
-import React, { useEffect } from "react";
+import styles from "./styles/Insta.module.css";
 
-function InstagramEmbed() {
-  useEffect(() => {
-    // Function to load the Instagram embed script
-    const loadInstagramScript = () => {
-      const script = document.createElement("script");
-      script.src = "//www.instagram.com/embed.js";
-      script.async = true;
-      document.body.appendChild(script);
-    };
-
-    loadInstagramScript();
-  }, []);
-
+export default function InstagramContent() {
   return (
-    <div className="py-16 items-center">
-      <div className="flex justify-center w-full items-center">
-        <div
-          dangerouslySetInnerHTML={{
-            __html: `
-      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/nakedzerohairsalon/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#000; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-        <!-- Instagram embed code goes here -->
-      </blockquote>
-    `,
-          }}
-        />
+    <div className="min-h-screen lg:w-4/5 xl:w-3/5 mx-auto my-6 sm:my-16">
+      <h1 className="text-center text-gray-600 text-4xl mb-12">
+        @nakedzerohairsalon
+      </h1>
+      <div className="grid grid-cols-3 sm:gap-2 gap-1">
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.one}`}></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.two}`}></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.three}`}></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.four}`}></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.five}`}></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.six}`}></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.seven}`}></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.eight}`}></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.nine}`}></div>
       </div>
     </div>
   );
 }
-
-export default InstagramEmbed;

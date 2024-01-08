@@ -6,6 +6,7 @@ import CTAn from "@/components/CTAn";
 import Testimonials from "@/components/Testimonials";
 import Appointment from "@/components/Appointment";
 import ServicesSection from "@/components/ServicesSection";
+import InstagramContent from "@/components/InstagramContent";
 export default function Page() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Page() {
       <Location />
       <Appointment />
       <Testimonials />
+      <InstagramContent />
       <CTA />
     </>
   );

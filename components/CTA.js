@@ -20,7 +20,7 @@ const CTA = () => {
             an appointment today!
           </p>
 
-          <div className="flex sm:space-x-4 max-sm:flex-col">
+          <div className="flex max-sm:flex-col gap-4">
             <a href="/products">
               <button className="bg-blue-500 hover:bg-blue-600 bg-opacity-30 border-2 border-blue-400  rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg mr-4 transition duration-300">
                 View Products
