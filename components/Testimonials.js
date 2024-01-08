@@ -17,7 +17,7 @@ export default function Testimonials() {
               href="https://testimonial.to/nakedzero-hair-salon"
               target="new"
             >
-              <button className="bg-orange-400 rounded-tl-[40px] rounded-br-[40px] text-white font-md py-2 px-4 rounded-full my-10 w-48 btn">
+              <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg mr-4 transition duration-300">
                 Post a Review
               </button>
             </Link>

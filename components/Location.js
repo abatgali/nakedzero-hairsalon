@@ -1,6 +1,9 @@
 export default function Location() {
   return (
-    <div className=" flex justify-center pt-10 flex-col h-screen mb-24" id="location">
+    <div
+      className=" flex justify-center pt-10 flex-col h-screen mb-24"
+      id="location"
+    >
       <h1 className="text-6xl font-extrabold mt-24 text-center">
         Where We Are
       </h1>
@@ -8,11 +11,23 @@ export default function Location() {
         8319 US 31 S, Indianapolis, IN 46227
       </h3>
       <h2 className="text-center font-extrabold text-2xl">Hours</h2>
-      <p className="text-xl text-center"><u>Monday - Saturday</u><br/><span className="font-bold">10:00 AM to 8:00 PM</span></p>
-      <p className="text-xl text-center"><u>Sunday</u><br/><span className="font-bold">2:00 PM to 8:00 PM</span></p>
+      <p className="text-xl text-center">
+        <u>Monday - Saturday</u>
+        <br />
+        <span className="font-bold">10:00 AM to 8:00 PM</span>
+      </p>
+      <p className="text-xl text-center">
+        <u>Sunday</u>
+        <br />
+        <span className="font-bold">2:00 PM to 8:00 PM</span>
+      </p>
 
-      <a href="https://maps.google.com/maps/dir//Mui+Le+Sam+By+Nakedzero+Hair+Salon+8319+US+31+S+Indianapolis,+IN+46227/@39.6451741,-86.1324631,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x886b5dcc43cae7df:0x186193e086ca2e9a" className="mx-auto" target="new">
-        <button className="bg-orange-400 rounded-tl-[40px] rounded-br-[40px] text-white font-md py-2 px-4 rounded-full my-10 w-48 btn">
+      <a
+        href="https://maps.google.com/maps/dir//Mui+Le+Sam+By+Nakedzero+Hair+Salon+8319+US+31+S+Indianapolis,+IN+46227/@39.6451741,-86.1324631,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x886b5dcc43cae7df:0x186193e086ca2e9a"
+        className="mx-auto my-12"
+        target="new"
+      >
+        <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg mr-4 transition duration-300">
           Get Directions
         </button>
       </a>
@@ -26,7 +41,6 @@ export default function Location() {
         // Add the disableDefaultUI parameter to remove extra map icons
         sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
       ></iframe>
-
     </div>
   );
 }
