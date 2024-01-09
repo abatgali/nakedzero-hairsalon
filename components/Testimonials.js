@@ -22,7 +22,7 @@ export default function Testimonials() {
               </button>
             </Link>
           </div>
-          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
+          {/* <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
             <blockquote className="rounded-lg bg-gradient-to-b to-black from-slate-600 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
@@ -216,7 +216,7 @@ export default function Testimonials() {
                 convenient location is an added bonus for me.
               </p>
             </blockquote>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
