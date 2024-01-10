@@ -7,6 +7,7 @@ const HeroSection = () => {
         autoPlay
         loop
         muted
+        playsInline
         className="absolute w-full h-full object-cover"
         src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/herovidnakedzero.mp4" 
       />
