@@ -12,12 +12,14 @@ export default function Page() {
     <>
       <HeroSection />
       <Hero />
-      <ServicesSection/>
-      <CTAn />
-      <Location />
-      <Appointment />
-      <Testimonials />
-      <InstagramContent />
+      <div className="container mx-auto max-w-7xl">
+        <ServicesSection />
+        <CTAn />
+        <Location />
+        <Appointment />
+        <Testimonials />
+        <InstagramContent />
+      </div>
       <CTA />
     </>
   );

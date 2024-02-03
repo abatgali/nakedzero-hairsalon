@@ -42,7 +42,7 @@ const Hero = () => {
                   Crafting your{" "}
                   <span className="text-orange-400">Signature</span> Look
                 </h1>
-                <p className="mt-4 sm:mt-8 w-full max-md:px-4 md:ml-auto lg:text-xl text-normal max-md:mx-auto md:pl-2">
+                <p className="mt-4 sm:mt-8 w-full lg:w-3/4 max-md:px-4 md:ml-auto lg:text-xl text-normal max-md:mx-auto md:pl-2">
                   Discover the NakedzerO difference in the{" "}
                   <Link href="#location">
                     <u>South Indianapolis, Greenwood</u>
