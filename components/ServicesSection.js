@@ -40,7 +40,7 @@ const ServicesSection = () => {
         <ServiceBox
           icon={<PiScissorsLight className="text-4xl" />}
           title="Shape & Style"
-            description="Capture your unique essence with our expert hairstylists."
+          description="Capture your unique essence with our expert hairstylists. Get the look you want with our cutting-edge cuts and styles."
           listItems={["Cut, Wash & styling", "Perm / Permanent Curls", "Hair Straightening"]}
         />
         <ServiceBox

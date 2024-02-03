@@ -7,11 +7,13 @@ import Testimonials from "@/components/Testimonials";
 import Appointment from "@/components/Appointment";
 import ServicesSection from "@/components/ServicesSection";
 import InstagramContent from "@/components/InstagramContent";
+import HaircutforMenandWomen from "@/components/menandwomencut";
 export default function Page() {
   return (
     <>
       <HeroSection />
       <Hero />
+      <HaircutforMenandWomen />
       <div className="container mx-auto max-w-7xl">
         <ServicesSection />
         <CTAn />
