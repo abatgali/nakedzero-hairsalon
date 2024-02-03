@@ -36,7 +36,7 @@ const ServicesSection = () => {
       <h1 className="text-5xl font-bold text-center mb-8 mt-16 sm:mt-48" id="services">
         Our Services
       </h1>
-      <div className="flex flex-wrap justify-around items-center p-8 gap-6 w-full lg:w-4/5 mx-auto">
+      <div className="flex flex-wrap justify-evenly items-center gap-4 p-8 w-full lg:w-4/5 mx-auto">
         <ServiceBox
           icon={<PiScissorsLight className="text-4xl" />}
           title="Shape & Style"
