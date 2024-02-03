@@ -13,7 +13,7 @@ export default function HaircutforMenandWomen() {
             objectFit="cover"
           />
           <div>
-            <h1 className="sm:text-6xl text-4xl font-bold text-left">
+            <h1 className="sm:text-6xl text-4xl font-bold text-left xl:text-8xl xl:w-3/4">
               <span className="text-amber-400">Women</span>&apos;s Haircut
             </h1>
             <h2 className="text-2xl font-semibold text-left">
@@ -28,7 +28,7 @@ export default function HaircutforMenandWomen() {
       <div className="bg-black ">
         <div className="bg-transparent w-full sm:w-3/4 mx-auto h-auto pt-24 flex flex-row items-start justify-around  max-w-7xl">
           <div className="text-right">
-            <h1 className="sm:text-6xl text-4xl font-bold ">
+            <h1 className="sm:text-6xl text-4xl font-bold xl:text-8xl xl:w-3/4 ml-auto">
               <span className="text-blue-400">Men</span>&apos;s Haircut
             </h1>
             <h2 className="text-2xl font-semibold">
