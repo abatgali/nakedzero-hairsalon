@@ -7,7 +7,7 @@ export default function HaircutforMenandWomen() {
         <div className="bg-transparent w-full sm:w-3/4 mx-auto h-auto pt-24 flex flex-row items-start justify-around  max-w-7xl">
           <img
             className="w-64 sm:w-96"
-            src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/womenhaircut.png"
+            src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/neww.png"
             alt="texture"
             layout="fill"
             objectFit="cover"
