@@ -2,29 +2,6 @@ import Link from "next/link";
 import { getSEOTags } from "@/libs/seo";
 import config from "@/config";
 
-// CHATGPT PROMPT TO GENERATE YOUR TERMS & SERVICES — replace with your own data 👇
-
-// 1. Go to https://chat.openai.com/
-// 2. Copy paste bellow
-// 3. Replace the data with your own (if needed)
-// 4. Paste the answer from ChatGPT directly in the <pre> tag below
-
-// You are an excellent lawyer.
-
-// I need your help to write a simple Terms & Services for my website. Here is some context:
-// - Website: https://shipfa.st
-// - Name: ShipFast
-// - Contact information: marc@shipfa.st
-// - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
-// - Ownership: when buying a package, users can download code to create apps. They own the code but they do not have the right to resell it. They can ask for a full refund within 7 day after the purchase.
-// - User data collected: name, email and payment information
-// - Non-personal data collection: web cookies
-// - Link to privacy-policy: https://shipfa.st/privacy-policy
-// - Governing Law: France
-// - Updates to the Terms: users will be updated by email
-
-// Please write a simple Terms & Services for my site. Add the current date. Do not add or explain your reasoning. Answer:
-
 export const metadata = getSEOTags({
   title: `Terms and Conditions | ${config.appName}`,
   canonicalUrlRelative: "/tos",
@@ -49,47 +26,54 @@ const TOS = () => {
           </svg>
           Back
         </Link>
-        <h1 className="text-3xl font-extrabold pb-6">
-          Terms and Conditions for {config.appName}
+        <h1 className="text-3xl font-extrabold pb-6 pt-24">
+          Terms and Conditions <span className="font-light"> {config.appName}</span>
         </h1>
 
         <pre
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Last Updated: February 6, 2024
 
-Welcome to ShipFast!
+Welcome to NakedzerO Hair Salon's Terms & Services. By using our website, https://nakedzerosalon.com | muilesam.com, you agree to comply with and be bound by the following terms. If you do not agree with these terms, please refrain from using our services.
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+1. Description of Services
 
-1. Description of ShipFast
+NakedzerO Hair Salon provides a variety of services, including but not limited to haircuts, color, styling, skin care products, and treatments.
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+2. User Data Collection
 
-2. Ownership and Usage Rights
+When you book an appointment with NakedzerO Hair Salon, we collect the following user data:
 
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+Name
+Email address
+Phone number
 
-3. User Data and Privacy
+3. Non-Personal Data Collection
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+We use web cookies to collect non-personal data to enhance user experience and improve our services.
 
-4. Non-Personal Data Collection
+4. Link to Privacy Policy
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
+Please review our Privacy Policy at Privacy Policy to understand how we collect, use, and protect your personal and non-personal information.
 
 5. Governing Law
 
-These Terms are governed by the laws of France.
+These Terms & Services are governed by the laws of the United States of America.
 
 6. Updates to the Terms
 
-We may update these Terms from time to time. Users will be notified of any changes via email.
+Users are encouraged to regularly check our website for updates to the Terms & Services. Continued use of our services after any modifications indicates your acceptance of the updated terms.
 
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
+If you have any questions or concerns regarding these terms, please contact us at nakedzerosalon@gmail.com.
 
-Thank you for using ShipFast!`}
+Thank you for choosing NakedzerO Hair Salon. We appreciate your cooperation with our Terms & Services.
+
+
+
+
+`}
         </pre>
       </div>
     </main>
