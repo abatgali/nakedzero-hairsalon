@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="flex flex-row sm:flex-col justify-between w-full">
             <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 sm:translate-y-[250px] md:translate-y-[120px] lg:translate-y-[250px] translate-y-[450px] z-20">
               <div className="flex flex-col max-md:backdrop-blur-md max-sm:bg-black max-sm:bg-opacity-30 pt-4">
-                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold heading xl:text-8xl xl:w-3/4 xl:ml-auto">
+                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold heading xl:ml-auto">
                   Crafting your{" "}
                   <span className="text-orange-400">Signature</span> Look
                 </h1>
