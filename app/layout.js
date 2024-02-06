@@ -5,6 +5,7 @@ import config from "@/config";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const font = Akshar({ subsets: ["latin"] });
 
@@ -24,13 +25,13 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme={config.colors.theme} className={font.className}>
       {config.domainName && (
         <head>
-          <script
-            defer
-            data-domain={config.domainName}
-            src="https://plausible.io/js/script.js"
-          ></script>
+          <GoogleAnalytics
+            gaId="G-02E4QZ8T8B"
+          />
+          <link rel="canonical" href="https://www.nakedzerosalon.com/" />
         </head>
       )}
+
       <body>
         {/* ClientLayout contains all the client wrappers (Crisp chat support, toast messages, tooltips, etc.) */}
         <ClientLayout>
