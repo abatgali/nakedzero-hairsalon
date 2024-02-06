@@ -2,8 +2,6 @@ import Link from "next/link";
 import config from "@/config";
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineLocalPhone } from "react-icons/md";
-// Add the Footer to the bottom of your landing page and more.
-// The support link is connected to the config.js file. If there's no config.mailgun.supportEmail, the link won't be displayed.
 
 const Footer = () => {
   return (
