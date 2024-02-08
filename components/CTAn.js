@@ -17,17 +17,15 @@ export default function CTAn() {
                   </h2>
 
                   <p className="hidden text-white/90 sm:mt-4 sm:block">
-                    Explore our exclusive range of hair care products, tailored
-                    for every hair type and texture. Elevate your daily routine
-                    with our premium selections.
+                    Our expert stylists are dedicated to creating hairstyles that capture your unique essence.
                   </p>
 
                   <div className="mt-4 md:mt-8 ">
-                    <a href="/products">
+                    <Link href="/#appointment">
                       <button className="bg-black rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-amber-400 rounded-md text-lg mr-4 hover:bg-emerald-700 transition duration-300">
-                        Find Products
+                        Book Now
                       </button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

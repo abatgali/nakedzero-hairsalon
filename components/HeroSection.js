@@ -9,7 +9,7 @@ const HeroSection = () => {
         muted
         playsInline
         className="absolute w-full h-full object-cover"
-        src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/herovidnakedzero.mp4" 
+        src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/herovidnakedzero.mp4"
       />
       <div className=" heading absolute w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center">
         <h1 className="text-white text-4xl md:text-6xl font-bold mb-4 ">
@@ -24,11 +24,11 @@ const HeroSection = () => {
               Our Services
             </button>
           </Link>
-          <a href="/products">
+          <Link href="/#appointment">
             <button className="bg-transparent border-2 rounded-tl-[20px] rounded-br-[20px] border-white text-white px-6 py-3 rounded-md text-lg hover:bg-white hover:text-black transition duration-300">
-              Shop
+              Book Now
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
