@@ -53,15 +53,15 @@ export default function Nav() {
                       Home{" "}
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
-                      href="/products"
+                      href="/about"
                     >
                       {" "}
-                      Products{" "}
+                      About{" "}
                     </a>
-                  </li>
+                  </li> */}
 
                   {/* <li>
                     <a
