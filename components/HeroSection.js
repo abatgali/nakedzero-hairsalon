@@ -9,7 +9,7 @@ const HeroSection = () => {
         muted
         playsInline
         className="absolute w-full h-full object-cover"
-        src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/herovidnakedzero.mp4"
+        src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/hero_vid_salon.mp4"
       />
       <div className=" heading absolute w-full h-full bg-black bg-opacity-50 flex flex-col justify-center items-center">
         <h1 className="text-white text-4xl md:text-6xl font-bold mb-4 ">
