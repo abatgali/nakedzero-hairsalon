@@ -1,6 +1,6 @@
 import { Akshar } from "next/font/google";
 import { getSEOTags } from "@/libs/seo";
-import ClientLayout from "@/components/LayoutClient";
+import Head from "next/head";
 import config from "@/config";
 import "./globals.css";
 import Nav from "@/components/Nav";
@@ -24,21 +24,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme={config.colors.theme} className={font.className}>
       {config.domainName && (
-        <head>
+        <Head>
           <GoogleAnalytics
             gaId="G-02E4QZ8T8B"
           />
-          <link rel="canonical" href="https://www.nakedzerosalon.com/" />
-        </head>
+        </Head>
       )}
-
       <body>
-        {/* ClientLayout contains all the client wrappers (Crisp chat support, toast messages, tooltips, etc.) */}
-        <ClientLayout>
           <Nav />
           {children}
           <Footer />
-        </ClientLayout>
       </body>
     </html>
   );

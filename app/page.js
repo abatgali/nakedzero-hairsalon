@@ -8,6 +8,23 @@ import Appointment from "@/components/Appointment";
 import ServicesSection from "@/components/ServicesSection";
 import InstagramContent from "@/components/InstagramContent";
 import HaircutforMenandWomen from "@/components/menandwomencut";
+import { getSEOTags } from "@/libs/seo";
+
+export const metadata = getSEOTags({
+  title: "Home Page | NakedzerO Hair Salon",
+  keywords: [
+    "Asian haircut",
+    "haircut",
+    "hair color",
+    "hair styling",
+    "hair treatment",
+    "hair care",
+    "Indianapolis Clips",
+    "Greenwood haircut",
+  ],
+  canonicalUrlRelative: "/",
+});
+
 export default function Page() {
   return (
     <>

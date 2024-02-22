@@ -27,7 +27,8 @@ const TOS = () => {
           Back
         </Link>
         <h1 className="text-3xl font-extrabold pb-6 pt-24">
-          Terms and Conditions <span className="font-light"> {config.appName}</span>
+          Terms and Conditions{" "}
+          <span className="font-light"> {config.appName}</span>
         </h1>
 
         <pre
