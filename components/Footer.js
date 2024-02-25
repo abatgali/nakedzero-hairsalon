@@ -40,13 +40,13 @@ const Footer = () => {
               {config.appDescription}
             </p>
             <p className="mt-3 text-sm text-base-content/60">
-              Copyright © {new Date().getFullYear()} - All rights reserved
+              Copyright © 2019 - {new Date().getFullYear()} - All rights reserved
             </p>
           </div>
           <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
-                LEGAL
+                LINKS
               </div>
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
@@ -55,6 +55,12 @@ const Footer = () => {
                 </Link>
                 <Link href="/privacy-policy" className="link link-hover">
                   Privacy policy
+                </Link>
+                <Link href="/about" className="link link-hover">
+                  About us
+                </Link>
+                <Link href="/book" className="link link-hover">
+                  Book an appointment
                 </Link>
               </div>
             </div>
