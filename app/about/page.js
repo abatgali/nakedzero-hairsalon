@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { getSEOTags } from "@/libs/seo";
-
+import Link from "next/link";
 export const metadata = getSEOTags({
   title: "About Us | NakedzerO Hair Salon",
   keywords: ["Mui le sam", "Great haircuts", "haircut near me", "Hair Clips"],
@@ -10,6 +10,9 @@ export const metadata = getSEOTags({
 export default function About() {
   return (
     <div className="text-center py-16 sm:py-24">
+      <div className="pt-8 px-2 sm:pt-16 mb-4 text-left container sm:w-3/4 mx-auto">
+        <Link href="/">&larr; Back to home</Link>
+      </div>
       <h1 className="text-4xl font-bold mt-12">About Us</h1>
       <Image
         className="mx-auto mt-8"
