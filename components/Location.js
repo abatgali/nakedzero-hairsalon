@@ -19,7 +19,7 @@ export default function Location() {
       <p className="text-xl text-center">
         <u>Sunday</u>
         <br />
-        <span className="font-bold">2:00 PM to 8:00 PM</span>
+        <span className="font-bold">Closed</span>
       </p>
 
       <a

@@ -11,7 +11,7 @@ import HaircutforMenandWomen from "@/components/menandwomencut";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
-  title: "Home Page | NakedzerO Hair Salon",
+  title: "Home | NakedzerO Hair Salon",
   keywords: [
     "Asian haircut",
     "haircut",
