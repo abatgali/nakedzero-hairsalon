@@ -7,7 +7,7 @@ const config = {
   appDescription:
   "NakedzerO Hair Salon is a full service salon located in the South of Indianapolis. We offer a wide range of services from haircuts, color, and styling to skin care products and treatments.",  
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "nakedzerosalon.com",
+  domainName: "www.nakedzerosalon.com",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
     id: "",
@@ -80,7 +80,7 @@ const config = {
     // Email shown to customer if need support. Leave empty if not needed => if empty, set up Crisp above, otherwise you won't be able to offer customer support."
     supportEmail: "ryang@mail.nakedzerosalon.com",
     // When someone replies to supportEmail sent by the app, forward it to the email below (otherwise it's lost). If you set supportEmail to empty, this will be ignored.
-    forwardRepliesTo: "anantb77@gmail.com",
+    forwardRepliesTo: "contact@vvault.us",
     // forwardRepliesTo: "muilesam4muilesam@gmail.com",
   },
   colors: {
