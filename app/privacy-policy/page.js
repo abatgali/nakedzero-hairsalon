@@ -3,7 +3,7 @@ import { getSEOTags } from "@/libs/seo";
 import config from "@/config";
 
 export const metadata = getSEOTags({
-  title: `Privacy Policy | ${config.appName}`,
+  title: `Salon Policies & Privacy`,
   canonicalUrlRelative: "/privacy-policy",
 });
 

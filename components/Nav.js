@@ -56,23 +56,12 @@ export default function Nav() {
                   {/* <li>
                     <a
                       className="text-gray-500 transition hover:text-gray-500/75"
-                      href="/about"
-                    >
-                      {" "}
-                      About{" "}
-                    </a>
-                  </li> */}
-
-                  {/* <li>
-                    <a
-                      className="text-gray-500 transition hover:text-gray-500/75"
                       href="/#services"
                     >
                       {" "}
                       Services{" "}
                     </a>
                   </li> */}
-
                   <li>
                     <Link
                       className="text-gray-500 transition hover:text-gray-500/75"

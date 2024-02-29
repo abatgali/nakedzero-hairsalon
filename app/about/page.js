@@ -2,7 +2,7 @@ import Image from "next/image";
 import { getSEOTags } from "@/libs/seo";
 import Link from "next/link";
 export const metadata = getSEOTags({
-  title: "About Us | NakedzerO Hair Salon",
+  title: "NakedzerO - South Indy's Best Salon",
   description:
     "NakedzerO is the premier hair salon in Indianapolis and Greenwood. We specialize in trendy haircuts, flawless fades, stunning hair coloring, impeccable styling, rejuvenating treatments, and captivating makeovers.",
   keywords: ["Mui le sam", "Great haircuts", "haircut near me", "Hair Clips"],

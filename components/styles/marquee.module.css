@@ -1,0 +1,20 @@
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    /* Optional: Set a specific height or padding */
+  }
+  
+  .marqueecontent {
+    display: inline-block;
+    /* Speed of the animation: The duration */
+    animation: marquee 10s linear infinite;
+  }
+  
+  /* Keyframes for the scrolling effect */
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); } /* Only move by 50% to restart at the original position */
+  }
+  

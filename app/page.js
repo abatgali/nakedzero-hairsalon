@@ -11,7 +11,9 @@ import HaircutforMenandWomen from "@/components/menandwomencut";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
-  title: "Home | NakedzerO Hair Salon",
+  title: "Your Go-To Hair Salon in South Indy & Greenwood",
+  description:
+    "Discover NakedzerO Salon in South Indianapolis & Greenwood for top-notch haircuts, coloring, and treatments. Your journey to stunning hair starts here.",
   keywords: [
     "Asian haircut",
     "haircut",
