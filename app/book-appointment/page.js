@@ -36,41 +36,41 @@ export default function Book() {
       </div>
       <div className={`pt-12 overflow-hidden ${css.marquee}`}>
         <div className={`${css.marqueecontent} w-full flex flex-row`}>
-          <div className="gap-5 flex sm:flex-row text-orange-800">
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[30px] rounded-md rounded-br-[40px] bg-blue-200">
+          <div className="gap-5 flex sm:flex-row text-black">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[30px] rounded-md rounded-br-[40px] bg-orange-200">
               Shape & Style
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Perms
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
-              Straigtening
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
+              Straightening
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Balayage
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Highlights
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Gentleman Fades
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Scalp Treatment
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Facial Massage
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Deep Cleansing
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Gloss Toning
             </div>
-            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               Full Coloring
             </div>
-            <div className="w-48 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-blue-200">
+            <div className="w-48 text-center text-lg  px-5 py-4 rounded-tl-[40px] rounded-md rounded-br-[40px] bg-orange-200">
               NakedzerO Hair Serum
             </div>
           </div>
