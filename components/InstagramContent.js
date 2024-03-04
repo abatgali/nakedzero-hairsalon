@@ -5,7 +5,7 @@ export default function InstagramContent() {
     <div className="min-h-screen lg:w-4/5 xl:w-3/5 mx-auto mt-6 sm:mt-16 mb-2">
       <div className="flex flex-row items-center gap-4 mx-auto w-fit mb-8">
         <a href="https://www.facebook.com/Nakedzero.com.uk/" target="_blank">
-          <div className="w-32 h-32 bg-transparent rounded-full flex justify-center items-center">
+          <div className="w-28 h-28 bg-transparent rounded-full flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               enable-background="new 0 0 100 100"
