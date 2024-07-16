@@ -39,7 +39,7 @@ export default function HaircutforMenandWomen() {
             </div>
           </div>
           <img
-            className="w-64 sm:w-96"
+            className="w-64 sm:w-96 -ml-12"
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/man_new.png"
             alt="texture"
             layout="fill"
