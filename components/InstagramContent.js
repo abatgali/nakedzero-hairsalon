@@ -80,7 +80,16 @@ export default function InstagramContent() {
           <span>@nakedzerohairsalon</span>
         </div>
       </a>
-      <div className="grid grid-cols-3 sm:gap-2 gap-1">
+      <div className="grid grid-cols-4 sm:gap-2 gap-1">
+        <div
+          className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.ten}`}
+        ></div>
+        <div
+          className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.eleven}`}
+        ></div>
+        <div
+          className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.twelve}`}
+        ></div>
         <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.one}`}></div>
         <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.two}`}></div>
         <div
@@ -102,6 +111,7 @@ export default function InstagramContent() {
         <div
           className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.nine}`}
         ></div>
+        
       </div>
     </div>
   );
