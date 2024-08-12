@@ -27,12 +27,12 @@ export default function InstagramContent() {
             </svg>
           </div>
         </a>
-        <span className="text-gray-600 text-4xl text-center font-bold mb-4 ">
+        <span className="text-gray-600 text-3xl text-center font-semibold mb-4 md:text-4xl">
           NakedzerO<span className="font-light"> Hair Salon</span>
         </span>
       </div>
       <a href="https://www.instagram.com/nakedzerohairsalon/" target="_blank">
-        <div className="flex justify-center items-center gap-5 text-center text-gray-600 text-4xl mb-12">
+        <div className="flex justify-center items-center gap-5 text-center text-gray-600 text-3xl md:text-4xl mb-12">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="102"
