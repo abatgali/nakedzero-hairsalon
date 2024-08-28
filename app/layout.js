@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
           <GoogleAnalytics
             gaId="G-02E4QZ8T8B"
           />
+          <meta name="trustpilot-one-time-domain-verification-id" content="e923b667-308d-403b-9bd3-421bc2de0874"/>
         </Head>
       )}
       <body>
