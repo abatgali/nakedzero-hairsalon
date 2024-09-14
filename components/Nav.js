@@ -5,7 +5,7 @@ import { MdOutlineLocalPhone } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 export default function Nav() {
   return (
-    <header className="h-fit bg-stone-950 backdrop-blur-sm inset-0 top-0 z-50 fixed w-full">
+    <header className="h-fit bg-stone-950 backdrop-blur-md inset-0 top-0 z-50 fixed w-full bg-opacity-75">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 sm:pt-4 pt-2">
         <div className="flex w-full gap-2 max-sm:hidden">
           <a
