@@ -41,7 +41,7 @@ export default function Nav() {
             </a>
           </div>
           <div className="flex sm:flex-col max-sm:gap-2">
-            <div className="md:flex md:items-center md:gap-12">
+            <div className="md:flex md:items-center md:gap-8">
               <nav aria-label="Global" className="hidden md:block">
                 <ul className="flex items-center gap-6 text-xl">
                   <li>
@@ -53,30 +53,20 @@ export default function Nav() {
                       About{" "}
                     </Link>
                   </li>
-                  {/* <li>
-                    <a
-                      className="text-gray-500 transition hover:text-gray-500/75"
-                      href="/#services"
-                    >
-                      {" "}
-                      Services{" "}
-                    </a>
-                  </li> */}
                   <li>
                     <Link
                       className="text-gray-500 transition hover:text-gray-500/75"
                       href="/#location"
                     >
-                      {" "}
-                      Location{" "}
+                      Location
                     </Link>
                   </li>
                 </ul>
               </nav>
 
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
                 <AppointmentLink>
-                  <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg mr-4 transition duration-300">
+                  <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[15px] rounded-br-[15px] text-white px-6 py-1 text-lg mr-4 transition duration-300">
                     Book
                   </button>
                 </AppointmentLink>
