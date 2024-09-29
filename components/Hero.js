@@ -57,7 +57,7 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center">
                   <a href="/#services">
-                    <button className="bg-blue-800 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-yellow-300 rounded-md text-lg mr-4 hover:bg-blue-500 transition duration-300">
+                    <button className="bg-blue-800 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-blue-400 rounded-md text-lg mr-4 hover:bg-blue-500 transition duration-300">
                       Our Services
                     </button>
                   </a>
