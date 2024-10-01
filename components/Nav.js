@@ -41,7 +41,7 @@ export default function Nav() {
             </a>
           </div>
           <div className="flex sm:flex-col max-sm:gap-2">
-            <div className="md:flex md:items-center md:gap-8">
+            <div className="md:flex md:items-center md:gap-10">
               <nav aria-label="Global" className="hidden md:block">
                 <ul className="flex items-center gap-6 text-xl">
                   <li>
@@ -49,8 +49,7 @@ export default function Nav() {
                       className="text-gray-500 transition hover:text-gray-500/75"
                       href="/about"
                     >
-                      {" "}
-                      About{" "}
+                      About
                     </Link>
                   </li>
                   <li>
@@ -63,33 +62,11 @@ export default function Nav() {
                   </li>
                 </ul>
               </nav>
-
-              <div className="flex items-center gap-2">
-                <AppointmentLink>
-                  <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[15px] rounded-br-[15px] text-white px-6 py-1 text-lg mr-4 transition duration-300">
-                    Book
-                  </button>
-                </AppointmentLink>
-
-                <div className=" hidden">
-                  <button className="rounded-tl-[15px] h-[43px] rounded-br-[15px] bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4 6h16M4 12h16M4 18h16"
-                      />
-                    </svg>
-                  </button>
-                </div>
-              </div>
+              <AppointmentLink>
+                <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg transition duration-300">
+                  Book
+                </button>
+              </AppointmentLink>
             </div>
           </div>
         </div>

@@ -41,4 +41,5 @@ public/sitemap-0.xml
 
 .env
 
-.gitignore
+package-lock.json
+
