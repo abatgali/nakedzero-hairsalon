@@ -1,12 +1,10 @@
 "use client";
 import { cn } from "@/libs/utils";
 import React from "react";
-import createGlobe from "cobe";
-import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { IconBrandYoutubeFilled } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Yesteryear } from "next/font/google";
 // import { getSEOTags } from "@/libs/seo";
 // export const metadata = getSEOTags({
 //   title: "NakedzerO - South Indy's Best Salon",
@@ -19,26 +17,29 @@ import Link from "next/link";
 export default function About() {
   const features = [
     {
-      title: "From Myanmar to Indy",
+      title: "NakedzerO Hair Salon: Where Greenwood Goes for Gorgeous Hair",
       description:
-        "",
+        "When you want a fresh look that turns heads, NakedzerO Hair Salon is the place to be. Our Burmese-American owned salon has been a Greenwood favorite since 2019, with a 4.9 Google rating that speaks for itself. From classic cuts to bold colors and effortless styles, our skilled team listens to you and creates a look you'll love.",
       skeleton: <SkeletonOne />,
       className:
         "col-span-1 lg:col-span-4 border-b lg:border-r border-neutral-800",
     },
     {
-      title: "Customer Photos from our Salon",
+      title: "We Love What We Do, and It Shows",
       description:
-        "At NakedzerO, our talented stylists are dedicated to helping you look and feel your absolute best. From special occasions to everyday moments, we'll work with you to create custom hairstyles that make you shine.",
+        "From special occasions to everyday moments, we'll work with you to create custom hairstyles that make you shine.",
       skeleton: <SkeletonTwo />,
       className: "border-b col-span-1 lg:col-span-2 border-neutral-800",
     },
   ];
+
+  let businessYears = new Date().getFullYear() - 2019;
+
   return (
     <div className="relative z-20 pt-32 pb-10 lg:py-40 max-w-7xl mx-auto">
       <div className="px-8">
         <h1 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-white">
-          5+ years in Business
+          {businessYears}+ years in Business
         </h1>
 
         <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-center font-normal text-neutral-300">
@@ -82,7 +83,7 @@ const FeatureDescription = ({ children }) => {
   return (
     <p
       className={cn(
-        "text-sm md:text-base  max-w-4xl text-left mx-auto",
+        "text-sm md:text-lg  max-w-4xl text-left mx-auto",
         "text-center font-normal text-neutral-300",
         "text-left max-w-sm mx-0 md:text-sm my-2"
       )}
@@ -97,7 +98,6 @@ export const SkeletonOne = () => {
     <div className="relative flex py-8 px-2 gap-10 h-full">
       <div className="w-full  p-5  mx-auto bg-neutral-900 shadow-2xl group h-full">
         <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
-          {/* TODO */}
           <Image
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/Salon%20cover%20picture.jpg"
             alt="header"
@@ -127,8 +127,8 @@ export const SkeletonTwo = () => {
   const moreImages = [
     "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20Image%200235.jpg",
     "https://storage.googleapis.com/allprojectsdata/about%20page/Shared%20IMG%203367%201.jpg",
-    "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20Image%200238.jpg",
     "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20Images%200240.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20Image%200237.jpg",
   ];
 
   const imageVariants = {
