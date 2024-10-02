@@ -95,15 +95,15 @@ const FeatureDescription = ({ children }) => {
 
 export const SkeletonOne = () => {
   return (
-    <div className="relative flex py-8 px-2 gap-10 h-full">
-      <div className="w-full  p-5  mx-auto bg-neutral-900 shadow-2xl group h-full">
+    <div className="relative flex py-8 sm:px-2 gap-10 h-full">
+      <div className="w-full sm:p-5 mx-auto bg-neutral-900 shadow-2xl group h-full">
         <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
           <Image
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/Salon%20cover%20picture.jpg"
             alt="header"
             width={800}
             height={800}
-            className="h-full w-full aspect-auto object-cover object-center rounded-sm"
+            className="h-full w-full aspect-auto object-cover sm:object-center rounded-sm"
           />
         </div>
       </div>
