@@ -1,135 +1,197 @@
+"use client";
+import { cn } from "@/libs/utils";
+import React from "react";
+import { motion } from "framer-motion";
 import Image from "next/image";
-import { getSEOTags } from "@/libs/seo";
 import Link from "next/link";
-export const metadata = getSEOTags({
-  title: "NakedzerO - South Indy's Best Salon",
-  description:
-    "NakedzerO is the premier hair salon in Indianapolis and Greenwood. We specialize in trendy haircuts, flawless fades, stunning hair coloring, impeccable styling, rejuvenating treatments, and captivating makeovers.",
-  keywords: ["Mui le sam", "Great haircuts", "haircut near me", "Hair Clips"],
-  canonicalUrlRelative: "/about",
-});
+import { Yesteryear } from "next/font/google";
+// import { getSEOTags } from "@/libs/seo";
+// export const metadata = getSEOTags({
+//   title: "NakedzerO - South Indy's Best Salon",
+//   description:
+//     "NakedzerO is the premier hair salon in Indianapolis and Greenwood. We specialize in trendy haircuts, flawless fades, stunning hair coloring, impeccable styling, rejuvenating treatments, and captivating makeovers.",
+//   keywords: ["Mui le sam", "Great haircuts", "haircut near me", "Hair Clips"],
+//   canonicalUrlRelative: "/about",
+// });
 
 export default function About() {
+  const features = [
+    {
+      title: "NakedzerO Hair Salon: Where Greenwood Goes for Gorgeous Hair",
+      description:
+        "When you want a fresh look that turns heads, NakedzerO Hair Salon is the place to be. Our Burmese-American owned salon has been a Greenwood favorite since 2019, with a 4.9 Google rating that speaks for itself. From classic cuts to bold colors and effortless styles, our skilled team listens to you and creates a look you'll love.",
+      skeleton: <SkeletonOne />,
+      className:
+        "col-span-1 lg:col-span-4 border-b lg:border-r border-neutral-800",
+    },
+    {
+      title: "We Love What We Do, and It Shows",
+      description:
+        "From special occasions to everyday moments, we'll work with you to create custom hairstyles that make you shine.",
+      skeleton: <SkeletonTwo />,
+      className: "border-b col-span-1 lg:col-span-2 border-neutral-800",
+    },
+  ];
+
+  let businessYears = new Date().getFullYear() - 2019;
+
   return (
-    <div className="text-center py-16 sm:py-24">
-      <div className="pt-8 px-2 sm:pt-16 mb-4 text-left container sm:w-3/4 mx-auto">
-        <Link href="/">&larr; Back to home</Link>
+    <div className="relative z-20 pt-32 pb-10 lg:py-40 max-w-7xl mx-auto">
+      <div className="px-8">
+        <h1 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-white">
+          {businessYears}+ years in Business
+        </h1>
+
+        <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-center font-normal text-neutral-300">
+          Bringing you style and smiles since 2019, with hundreds of happy
+          customers!
+        </p>
       </div>
-      <h1 className="text-4xl font-bold mt-12">About Us</h1>
-      <Image
-        className="mx-auto mt-8"
-        src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/Salon%20cover%20picture.jpg"
-        width={800}
-        height={500}
-        alt="Nakedzero Hair Salon store front"
-      />
-      <div className="container min-h-screen sm:py-16 mx-auto lg:w-1/3 xl:w-1/4">
-        <div className="px-4 mt-4">
-          <header>
-            <h2 className="text-2xl font-bold">
-              Elevate Your Look with NakedzerO: The Premier Hair Salon in
-              Indianapolis & Greenwood
-            </h2>
-          </header>
-          <article>
-            <p className="mt-4">
-              Are you ready to transform your hairstyle and elevate your look to
-              new heights? Look no further than NakedzerO, the leading hair
-              salon serving the vibrant communities of Indianapolis and
-              Greenwood. At NakedzerO, we specialize in providing trendy
-              haircuts, flawless fades, stunning hair coloring, impeccable
-              styling, rejuvenating treatments, and captivating makeovers that
-              perfectly complement your unique features.
-            </p>
-            <p className="mt-4">
-              Originating from the rich cultural heritage of Myanmar/Burma,
-              where hair salons are affectionately known as &quot;Mui le
-              sam&quot;, NakedzerO has been redefining haircare and beauty since
-              2019. Our commitment to excellence, paired with our passion for
-              artistic expression, sets us apart as a premier destination for
-              all your hairstyling needs.
-            </p>
-            <h3 className="text-xl font-bold mt-8">
-              Trendy Haircuts Tailored to You
-            </h3>
-            <p>
-              Step into NakedzerO and experience the artistry of our skilled
-              stylists. Whether you&apos;re seeking a bold new look or a subtle
-              change, our team is dedicated to delivering precision cuts that
-              reflect your individual style and personality. From classic styles
-              to avant-garde creations, we take pride in crafting hairstyles
-              that turn heads and leave a lasting impression.
-            </p>
-            <h3 className="text-xl font-bold mt-8">
-              Flawless Fades for the Modern Gentleman
-            </h3>
-            <p>
-              Gentlemen, indulge in the luxury of a flawless fade at NakedzerO.
-              Our barbers are masters of their craft, using cutting-edge
-              techniques to achieve seamless transitions and impeccable
-              precision. Whether you prefer a low fade, high fade, or something
-              in between, trust NakedzerO to deliver a fade that exudes
-              confidence and sophistication.
-            </p>
-            <h3 className="text-xl font-bold mt-8">
-              Stunning Hair Coloring for Vibrant Results
-            </h3>
-            <p>
-              Unleash your inner artist with our exquisite hair coloring
-              services. From vibrant hues to natural tones, our color
-              specialists utilize premium products and innovative techniques to
-              achieve stunning results. Whether you desire a subtle balayage or
-              a bold fashion color, NakedzerO is your destination for vibrant,
-              head-turning hair color.
-            </p>
-            <h3 className="text-xl font-bold mt-8">
-              Impeccable Styling for Every Occasion
-            </h3>
-            <p>
-              Discover the power of impeccable styling at NakedzerO. Whether
-              you&apos;re preparing for a special event or simply want to look
-              your best every day, our stylists are here to bring your vision to
-              life. With meticulous attention to detail and a keen eye for
-              trends, we create hairstyles that enhance your natural beauty and
-              elevate your confidence.
-            </p>
-            <h3 className="text-xl font-bold mt-8">
-              Rejuvenating Treatments for Healthy Hair
-            </h3>
-            <p>
-              Nourish your hair and revitalize your locks with our rejuvenating
-              treatments. From hydrating masks to revitalizing scalp treatments,
-              NakedzerO offers a range of luxurious options designed to promote
-              healthy hair and restore vitality. Let our experts pamper you with
-              personalized care, leaving your hair feeling silky smooth and
-              irresistibly touchable.
-            </p>
-            <h3 className="text-xl font-bold mt-8">
-              Captivating Makeovers that Transform
-            </h3>
-            <p>
-              Ready for a transformative experience? Let NakedzerO work its
-              magic with captivating makeovers that leave you looking and
-              feeling like a million bucks. Whether you&apos;re craving a
-              dramatic change or subtle enhancements, our talented team will
-              customize a makeover that accentuates your features and
-              complements your unique style.
-            </p>
-            <h3 className="text-xl font-bold mt-8">
-              Experience the NakedzerO Difference Today
-            </h3>
-            <p>
-              Elevate your look and unleash your inner beauty with NakedzerO,
-              the premier hair salon in Indianapolis and Greenwood. From trendy
-              haircuts to flawless fades, hair coloring, styling, treatments,
-              and makeovers, we offer everything you need to express yourself
-              with confidence and flair. Schedule your appointment today and
-              discover why NakedzerO is the ultimate destination for
-              unparalleled haircare and beauty.
-            </p>
-          </article>
+
+      <div className="relative ">
+        <div className="grid grid-cols-1 lg:grid-cols-6 mt-12 xl:border rounded-md border-neutral-800">
+          {features.map((feature) => (
+            <FeatureCard key={feature.title} className={feature.className}>
+              <FeatureTitle>{feature.title}</FeatureTitle>
+              <FeatureDescription>{feature.description}</FeatureDescription>
+              <div className=" h-full w-full">{feature.skeleton}</div>
+            </FeatureCard>
+          ))}
         </div>
       </div>
     </div>
   );
 }
+
+const FeatureCard = ({ children, className }) => {
+  return (
+    <div className={cn(`p-4 sm:p-8 relative overflow-hidden`, className)}>
+      {children}
+    </div>
+  );
+};
+
+const FeatureTitle = ({ children }) => {
+  return (
+    <p className=" max-w-5xl mx-auto text-left tracking-tight text-white text-xl md:text-2xl md:leading-snug">
+      {children}
+    </p>
+  );
+};
+
+const FeatureDescription = ({ children }) => {
+  return (
+    <p
+      className={cn(
+        "text-sm md:text-lg  max-w-4xl text-left mx-auto",
+        "text-center font-normal text-neutral-300",
+        "text-left max-w-sm mx-0 md:text-sm my-2"
+      )}
+    >
+      {children}
+    </p>
+  );
+};
+
+export const SkeletonOne = () => {
+  return (
+    <div className="relative flex py-8 sm:px-2 gap-10 h-full">
+      <div className="w-full sm:p-5 mx-auto bg-neutral-900 shadow-2xl group h-full">
+        <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
+          <Image
+            src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/Salon%20cover%20picture.jpg"
+            alt="header"
+            width={800}
+            height={800}
+            className="h-full w-full aspect-auto object-cover sm:object-center rounded-sm"
+          />
+        </div>
+      </div>
+
+      <div className="absolute bottom-0 z-40 inset-x-0 h-60 bg-gradient-to-t from-black via-black to-transparent w-full pointer-events-none" />
+      <div className="absolute top-0 z-40 inset-x-0 h-60 bg-gradient-to-b from-black via-transparent to-transparent w-full pointer-events-none" />
+    </div>
+  );
+};
+
+export const SkeletonTwo = () => {
+  const images = [
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Shared%20IMG%206855.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Shared%20IMG%205227%201.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Shared%20IMG%206849.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Shared%20IMG%204457.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20IMG%200248.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20Image%200238.jpg",
+  ];
+
+  const moreImages = [
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20Image%200235.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Shared%20IMG%203367%201.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20Images%200240.jpg",
+    "https://storage.googleapis.com/allprojectsdata/about%20page/Salon%20Image%200237.jpg",
+  ];
+
+  const imageVariants = {
+    whileHover: {
+      scale: 1.1,
+      rotate: 0,
+      zIndex: 100,
+    },
+    whileTap: {
+      scale: 1.1,
+      rotate: 0,
+      zIndex: 100,
+    },
+  };
+  return (
+    <div className="relative flex flex-col items-start p-8 gap-10 h-full overflow-hidden">
+      <div className="flex flex-row -ml-20">
+        {images.map((image, idx) => (
+          <motion.div
+            variants={imageVariants}
+            key={idx}
+            style={{
+              rotate: Math.random() * 20 - 10,
+            }}
+            whileHover="whileHover"
+            whileTap="whileTap"
+            className="rounded-xl -mr-4 mt-4 p-1 bg-neutral-800 border-neutral-700 border flex-shrink-0 overflow-hidden"
+          >
+            <Image
+              src={image}
+              alt="salon images"
+              width="500"
+              height="500"
+              className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover flex-shrink-0"
+            />
+          </motion.div>
+        ))}
+      </div>
+      <div className="flex flex-row">
+        {moreImages.map((image, idx) => (
+          <motion.div
+            key={"images-second" + idx}
+            style={{
+              rotate: Math.random() * 20 - 10,
+            }}
+            variants={imageVariants}
+            whileHover="whileHover"
+            whileTap="whileTap"
+            className="rounded-xl -mr-4 mt-4 p-1 bg-neutral-800 border-neutral-700 border flex-shrink-0 overflow-hidden"
+          >
+            <Image
+              src={image}
+              alt="bali images"
+              width="500"
+              height="500"
+              className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover flex-shrink-0"
+            />
+          </motion.div>
+        ))}
+      </div>
+
+      <div className="absolute left-0 z-[100] inset-y-0 w-20 bg-gradient-to-r from-black to-transparent  h-full pointer-events-none" />
+      <div className="absolute right-0 z-[100] inset-y-0 w-20 bg-gradient-to-l from-black  to-transparent h-full pointer-events-none" />
+    </div>
+  );
+};
