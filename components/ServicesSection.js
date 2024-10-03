@@ -33,7 +33,10 @@ const ServiceList = ({ items }) => {
 const ServicesSection = () => {
   return (
     <>
-      <h1 className="text-5xl font-bold text-center mb-8 mt-16 sm:mt-48" id="services">
+      <h1
+        className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white mb-8 mt-16 sm:mt-48"
+        id="services"
+      >
         Our Services
       </h1>
       <div className="flex flex-wrap justify-evenly items-center gap-4 p-8 w-full lg:w-4/5 mx-auto">
@@ -41,25 +44,44 @@ const ServicesSection = () => {
           icon={<PiScissorsLight className="text-4xl" />}
           title="Shape & Style"
           description="Capture your unique essence with our expert hairstylists. Get the look you want with our cutting-edge cuts and styles."
-          listItems={["Cut, Wash & styling", "Perm / Permanent Curls", "Hair Straightening"]}
+          listItems={[
+            "Cut, Wash & styling",
+            "Perm / Permanent Curls",
+            "Hair Straightening",
+          ]}
         />
         <ServiceBox
           icon={<IoIosColorFilter className="text-4xl" />}
           title="Hair Color"
           description="Switch up your look with a new hair color. We offer a variety of coloring services."
-          listItems={["Balayage", "Highlights", "Full Coloring", "Gloss Toning"]}
+          listItems={[
+            "Balayage",
+            "Highlights",
+            "Full Coloring",
+            "Gloss Toning",
+          ]}
         />
         <ServiceBox
           icon={<MdOutlineBathroom className="text-4xl" />}
           title="Treatments"
           description="Hair treatments are designed to target specific problems with your hair or scalp."
-          listItems={["NakedzerO Hair Serum", "Hair Growth", "Scalp Treatment", "NakedzerO Luxu"]}
+          listItems={[
+            "NakedzerO Hair Serum",
+            "Hair Growth",
+            "Scalp Treatment",
+            "NakedzerO Luxu",
+          ]}
         />
         <ServiceBox
           icon={<LuSparkles className="text-4xl" />}
           title="Facial Care"
           description="We offer a variety of facial care services to help you look and feel your best."
-          listItems={["Steaming & Deep Cleaning", "Peeling & Brightening", "Slimming & Anti Aging", "Facial Massage"]}
+          listItems={[
+            "Steaming & Deep Cleaning",
+            "Peeling & Brightening",
+            "Slimming & Anti Aging",
+            "Facial Massage",
+          ]}
         />
       </div>
     </>
