@@ -29,12 +29,6 @@ export default function Book() {
         <h1 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-white">
           Book Your Salon Appointment Today
         </h1>
-        <p className="text-center pt-4">
-          At NakedzerO Salon, we specialize in a suite of hair and beauty
-          services designed to enhance your natural beauty and cater to your
-          individual care needs. Reserve your spot now and experience the
-          transformation with our seasoned stylists and beauticians.
-        </p>
       </div>
       <div className={`pt-12 overflow-hidden ${css.marquee}`}>
         <div className={`${css.marqueecontent} w-full flex flex-row`}>
