@@ -4,7 +4,7 @@ export default function Location() {
       className=" flex justify-center pt-10 flex-col h-screen mb-24"
       id="location"
     >
-      <h1 className="text-6xl font-extrabold mt-24 text-center">
+      <h1 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white">
         Where We Are
       </h1>
       <h3 className="text-2xl font-light my-10 text-center">

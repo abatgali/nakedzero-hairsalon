@@ -12,7 +12,7 @@ const CTA = () => {
       <div className="relative hero-overlay bg-neutral bg-opacity-70"></div>
       <div className="relative hero-content text-center text-neutral-content p-8">
         <div className="flex flex-col items-center max-w-xl p-8 md:p-0">
-          <h2 className="font-bold text-3xl md:text-5xl tracking-tight mb-8 md:mb-12">
+          <h2 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white mb-8 md:mb-12">
             Treat yourself to a new look
           </h2>
           <p className="text-lg opacity-80 mb-12 md:mb-16">
