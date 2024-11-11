@@ -1,91 +1,80 @@
-import React from "react";
-import { PiScissorsLight } from "react-icons/pi";
-import { IoIosColorFilter } from "react-icons/io";
-import { MdOutlineBathroom } from "react-icons/md";
-import { LuSparkles } from "react-icons/lu";
+import { Scissors, Palette, Sparkles, Smile, Flower } from "lucide-react"
+import styles from "./styles/Background.module.css";
+import Link from "next/link"
 
-// Define the ServiceBox component
-const ServiceBox = ({ icon, title, description, listItems }) => {
+export default function Component() {
   return (
-    <div className="flex sm:w-[340px] flex-col items-center p-6 bg-gradient-to-t from-black to-gray-600 text-white  shadow-md transition duration-300 ease-in-out">
-      <div className="mb-4 text-orange-400">{icon}</div>
-      <h3 className="text-lg font-semibold mb-2">{title}</h3>
-      <p className="text-sm w-4/5 mx-auto text-center mb-4">{description}</p>
-      {listItems && <ServiceList items={listItems} />}
-    </div>
-  );
-};
+    <section className="w-full bg-black text-white py-12 px-4">
+      <div className="container mx-auto max-w-6xl">
+        <div className="space-y-4 mb-8">
+          <h2 className="text-4xl font-bold tracking-tighter">Our Services</h2>
+          <p className="text-zinc-400 max-w-[600px]">
+            Experience luxury and rejuvenation with our comprehensive beauty and wellness services.
+          </p>
+        </div>
 
-// Define the ServiceList component
-const ServiceList = ({ items }) => {
-  return (
-    <ul className="list-disc list-inside">
-      {items.map((item, index) => (
-        <li key={index} className="text-sm text-orange-400">
-          {item}
-        </li>
-      ))}
-    </ul>
-  );
-};
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[200px]">
+          {/* Styling */}
+          <div className={`bg-zinc-950/50 border border-zinc-800 rounded-lg row-span-2 p-6 flex flex-col ${styles.bgImage2}`}>
+            <Scissors className="h-8 w-8 text-orange-500 mb-4" />
+            <h3 className="text-xl font-semibold mb-2">Styling</h3>
+            <p className="text-zinc-400 mb-4">
+              Expert hair styling services including cuts, updos, and special occasion styling by our master stylists.
+            </p>
+            <Link href="#" className="text-orange-500 hover:text-orange-400 mt-auto inline-flex items-center">
+              Learn more
+            </Link>
+          </div>
 
-// Define the ServicesSection component that uses ServiceBox
-const ServicesSection = () => {
-  return (
-    <>
-      <h1
-        className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white mb-8 mt-16 sm:mt-48"
-        id="services"
-      >
-        Our Services
-      </h1>
-      <div className="flex flex-wrap justify-evenly items-center gap-4 p-8 w-full lg:w-4/5 mx-auto">
-        <ServiceBox
-          icon={<PiScissorsLight className="text-4xl" />}
-          title="Shape & Style"
-          description="Capture your unique essence with our expert hairstylists. Get the look you want with our cutting-edge cuts and styles."
-          listItems={[
-            "Cut, Wash & styling",
-            "Perm / Permanent Curls",
-            "Hair Straightening",
-          ]}
-        />
-        <ServiceBox
-          icon={<IoIosColorFilter className="text-4xl" />}
-          title="Hair Color"
-          description="Switch up your look with a new hair color. We offer a variety of coloring services."
-          listItems={[
-            "Balayage",
-            "Highlights",
-            "Full Coloring",
-            "Gloss Toning",
-          ]}
-        />
-        <ServiceBox
-          icon={<MdOutlineBathroom className="text-4xl" />}
-          title="Treatments"
-          description="Hair treatments are designed to target specific problems with your hair or scalp."
-          listItems={[
-            "NakedzerO Hair Serum",
-            "Hair Growth",
-            "Scalp Treatment",
-            "NakedzerO Luxu",
-          ]}
-        />
-        <ServiceBox
-          icon={<LuSparkles className="text-4xl" />}
-          title="Facial Care"
-          description="We offer a variety of facial care services to help you look and feel your best."
-          listItems={[
-            "Steaming & Deep Cleaning",
-            "Peeling & Brightening",
-            "Slimming & Anti Aging",
-            "Facial Massage",
-          ]}
-        />
+          {/* Hair Coloring */}
+          <div className="bg-zinc-950/50 border border-zinc-800 rounded-lg p-6 flex flex-col">
+            <Palette className="h-8 w-8 text-orange-500 mb-4" />
+            <h3 className="text-xl font-semibold mb-2">Hair Coloring</h3>
+            <p className="text-zinc-400 mb-4">
+              Premium color services from subtle highlights to bold transformations.
+            </p>
+            <Link href="#" className="text-orange-500 hover:text-orange-400 mt-auto inline-flex items-center">
+              Learn more
+            </Link>
+          </div>
+
+          {/* Treatments */}
+          <div className="bg-zinc-950/50 border border-zinc-800 rounded-lg md:col-span-2 p-6 flex flex-col">
+            <Sparkles className="h-8 w-8 text-orange-500 mb-4" />
+            <h3 className="text-xl font-semibold mb-2">Treatments</h3>
+            <p className="text-zinc-400 mb-4">
+              Revitalizing hair treatments including deep conditioning, keratin, and scalp therapy.
+            </p>
+            <Link href="#" className="text-orange-500 hover:text-orange-400 mt-auto inline-flex items-center">
+              Learn more
+            </Link>
+          </div>
+
+          {/* Facial Care */}
+          <div className="bg-zinc-950/50 border border-zinc-800 rounded-lg p-6 flex flex-col">
+            <Smile className="h-8 w-8 text-orange-500 mb-4" />
+            <h3 className="text-xl font-semibold mb-2">Facial Care</h3>
+            <p className="text-zinc-400 mb-4">
+              Customized facial treatments for radiant, healthy skin.
+            </p>
+            <Link href="#" className="text-orange-500 hover:text-orange-400 mt-auto inline-flex items-center">
+              Learn more
+            </Link>
+          </div>
+
+          {/* Body Massage */}
+          <div className="bg-zinc-950/50 border border-zinc-800 rounded-lg md:col-span-2 p-6 flex flex-col">
+            <Flower className="h-8 w-8 text-orange-500 mb-4" />
+            <h3 className="text-xl font-semibold mb-2">Body Massage</h3>
+            <p className="text-zinc-400 mb-4">
+              Therapeutic massage services to relax, rejuvenate, and restore balance.
+            </p>
+            <Link href="#" className="text-orange-500 hover:text-orange-400 mt-auto inline-flex items-center">
+              Learn more
+            </Link>
+          </div>
+        </div>
       </div>
-    </>
-  );
-};
-
-export default ServicesSection;
+    </section>
+  )
+}
