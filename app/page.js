@@ -4,8 +4,8 @@ import Location from "@/components/Location";
 import HeroSection from "@/components/HeroSection";
 import CTAn from "@/components/CTAn";
 import Testimonials from "@/components/Testimonials";
+import ServiceBento from "@/components/ServiceBento";
 import Appointment from "@/components/Appointment";
-import ServicesSection from "@/components/ServicesSection";
 import InstagramContent from "@/components/InstagramContent";
 import HaircutforMenandWomen from "@/components/menandwomencut";
 import { getSEOTags } from "@/libs/seo";
@@ -34,8 +34,8 @@ export default function Page() {
       <Hero />
       <HaircutforMenandWomen />
       <div className="container mx-auto max-w-7xl">
-        <ServicesSection />
         <CTAn />
+        <ServiceBento/> 
         <Location />
         <Appointment />
         <Testimonials />
