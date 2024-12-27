@@ -2,7 +2,6 @@ import Appointment from "@/components/Appointment";
 import React from "react";
 import { getSEOTags } from "@/libs/seo";
 import Image from "next/image";
-import Link from "next/link";
 import css from "@/components/styles/marquee.module.css";
 
 export const metadata = getSEOTags({
@@ -32,7 +31,7 @@ export default function Book() {
       </div>
       <div className={`pt-12 overflow-hidden ${css.marquee}`}>
         <div className={`${css.marqueecontent} w-full flex flex-row`}>
-          <div className="gap-5 flex sm:flex-row text-black">
+          <div className="gap-5 flex sm:flex-row text-black max-sm:my-5">
             <div className="w-40 text-center text-lg  px-5 py-4 rounded-tl-[30px] rounded-md rounded-br-[40px] bg-orange-200">
               Shape & Style
             </div>
