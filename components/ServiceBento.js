@@ -86,7 +86,7 @@ export default function ServiceBento() {
                     Starting from $60
                   </h3>
                   <p className="mt-2 text-lg font-medium tracking-tight text-white">
-                    Relaxation Bliss Body Massage
+                    Men&apos;s Body Massage and Facial Rejuvenation
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
                     Indulge in our expertly crafted Body Massage therapy,
