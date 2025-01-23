@@ -37,7 +37,7 @@ export default function ServiceBento() {
               <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-tr-[2rem]">
                 <img
                   alt=""
-                  src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/coloringService.png"
+                  src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/coloring_service.png"
                   className="h-80 object-cover"
                 />
                 <div className="p-10">
@@ -53,11 +53,11 @@ export default function ServiceBento() {
                 </div>
               </div>
             </div>
-            <div className="flex p-px lg:col-span-2">
+            <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-bl-[2rem]">
                 <img
                   alt=""
-                  src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/treatment.jpg"
+                  src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/Face%20Steaming%20Image.jpg"
                   className="h-80 object-cover"
                 />
                 <div className="p-10">
@@ -65,20 +65,19 @@ export default function ServiceBento() {
                     Starting from $30
                   </h3>
                   <p className="mt-2 text-lg font-medium tracking-tight text-white">
-                    Hair & Scalp Treatments
+                    Facial Rejuvenation
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
-                    NakedzerO Hair Serum, Hair Growth, Scalp Treatment, NakedzerO
-                    Luxu and more.
+                    Our facial treatments will leave your skin feeling refreshed and rejuvenated.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="flex p-px lg:col-span-4">
+            <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]">
                 <img
                   alt=""
-                  src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/massageService2.png"
+                  src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/massageresized.png"
                   className="h-80 object-cover object-left"
                 />
                 <div className="p-10">
@@ -86,7 +85,7 @@ export default function ServiceBento() {
                     Starting from $60
                   </h3>
                   <p className="mt-2 text-lg font-medium tracking-tight text-white">
-                    Men&apos;s Body Massage and Facial Rejuvenation
+                    Men&apos;s Body Massage
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
                     Indulge in our expertly crafted Body Massage therapy,
