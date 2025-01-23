@@ -82,7 +82,7 @@ export default function ServiceBento() {
                 />
                 <div className="p-10">
                   <h3 className="text-sm/4 font-semibold text-gray-400">
-                    Starting from $60
+                    Starting from $75
                   </h3>
                   <p className="mt-2 text-lg font-medium tracking-tight text-white">
                     Men&apos;s Body Massage
