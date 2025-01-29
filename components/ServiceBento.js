@@ -57,7 +57,7 @@ export default function ServiceBento() {
               <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-bl-[2rem]">
                 <img
                   alt="Facial Rejuvenation"
-                  src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/Face%20Steaming%20Image.jpg"
+                  src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/ff.png"
                   className="h-80 object-cover"
                 />
                 <div className="p-10">

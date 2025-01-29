@@ -82,6 +82,15 @@ export default function InstagramContent() {
       </a>
       <div className="grid grid-cols-3 sm:gap-2 gap-1">
       <div
+          className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.sixteen}`}
+        ></div>
+        <div
+          className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.seventeen}`}
+        ></div>
+        <div
+          className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.eighteen}`}
+        ></div>
+        <div
           className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.fourteen}`}
         ></div>
         <div
@@ -90,9 +99,7 @@ export default function InstagramContent() {
         <div
           className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.thirteen}`}
         ></div>
-        <div
-          className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.ten}`}
-        ></div>
+        <div className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.ten}`}></div>
         <div
           className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.eleven}`}
         ></div>
@@ -120,7 +127,6 @@ export default function InstagramContent() {
         <div
           className={`bg-gray-300 h-48 sm:h-64 md:h-96 ${styles.nine}`}
         ></div>
-        
       </div>
     </div>
   );
