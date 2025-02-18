@@ -73,7 +73,7 @@ export default function ServiceBento() {
                 </div>
               </div>
             </div>
-            <div className="flex p-px lg:col-span-3">
+            {/* <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]">
                 <img
                   alt="Body Massage at NakedzerO Salon for Men only"
@@ -94,7 +94,7 @@ export default function ServiceBento() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
