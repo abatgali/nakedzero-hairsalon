@@ -20,7 +20,7 @@ export default function HaircutforMenandWomen() {
               Cut, Wash & Style
             </h2>
             <div className="text-left text-white bg-gradient-to-r from-yellow-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]">
-              $45
+              $55
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function HaircutforMenandWomen() {
               Cut, Wash & Style
             </h2>
             <div className=" text-white bg-gradient-to-l from-blue-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]">
-              $35
+              $40
             </div>
           </div>
           <img
