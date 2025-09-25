@@ -8,7 +8,6 @@ export default function Appointment() {
           src="https://koalendar.com/e/nakedzerosalon?embed=true"
           width="100%"
           height="800px"
-          frameborder="0"
         ></iframe>
       </div>
     </>
