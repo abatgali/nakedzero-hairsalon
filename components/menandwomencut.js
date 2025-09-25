@@ -21,7 +21,6 @@ export default function HaircutforMenandWomen() {
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/woman-hc.png"
             alt="texture"
             layout="fill"
-            objectFit="cover"
           />
         </div>
       </div>
@@ -32,7 +31,6 @@ export default function HaircutforMenandWomen() {
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/man-hc.png"
             alt="texture"
             layout="fill"
-            objectFit="cover"
           />
           <div className="text-right">
             <h1 className="sm:text-6xl text-4xl font-bold xl:text-8xl xl:w-3/4 ml-auto">
