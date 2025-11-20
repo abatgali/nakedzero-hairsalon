@@ -63,6 +63,7 @@ export default function HeroImages() {
         isLargeScreen ? { height: containerHeight } : { height: "min-content" }
       } // Apply the calculated height
     >
+      {/* This is the guy image */}
       <div
         className={`${styles.imgTwoDiv} ${styles.imgOne} max-sm:-translate-x-[100px] max-sm:translate-y-[50px] sm:scale-x-[-1]`}
       ></div>
