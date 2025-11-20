@@ -6,6 +6,7 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 
 const font = Akshar({ subsets: ["latin"] });
 
@@ -31,6 +32,18 @@ export default function RootLayout({ children }) {
         </Head>
       )}
       <body>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=AW-17686693077"
+            strategy="afterInteractive"
+          />
+          <Script id="google-ads" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-17686693077');
+            `}
+          </Script>
           <Nav />
           {children}
           <Footer />
