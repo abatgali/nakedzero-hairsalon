@@ -29,7 +29,7 @@ const Footer = () => {
               </a>
               <span className="text-gray-500">|</span>
               <a
-                href="tel:1234567890"
+                href="tel:3177017294"
                 className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
               >
                 <MdOutlineLocalPhone />
