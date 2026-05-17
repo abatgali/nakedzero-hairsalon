@@ -71,6 +71,7 @@ export const renderSchemaTags = () => {
   return (
     <script
       type="application/ld+json"
+      async=""
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
@@ -122,7 +123,7 @@ export const renderSchemaTags = () => {
           aggregateRating: {
             "@type": "AggregateRating",
             ratingValue: "4.9",
-            reviewCount: "100",
+            reviewCount: "22",
           },
         }),
       }}

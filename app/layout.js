@@ -1,6 +1,5 @@
 import { Akshar } from "next/font/google";
 import { getSEOTags, renderSchemaTags } from "@/libs/seo";
-import Head from "next/head";
 import config from "@/config";
 import "./globals.css";
 import Nav from "@/components/Nav";
@@ -24,30 +23,24 @@ export const metadata = getSEOTags();
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme={config.colors.theme} className={font.className}>
-      {renderSchemaTags()}
-      {config.domainName && (
-        <Head>
-          <GoogleAnalytics
-            gaId="G-02E4QZ8T8B"
-          />
-        </Head>
-      )}
       <body>
-          <Script
-            src="https://www.googletagmanager.com/gtag/js?id=AW-17686693077"
-            strategy="afterInteractive"
-          />
-          <Script id="google-ads" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-17686693077');
-            `}
-          </Script>
-          <Nav />
-          {children}
-          <Footer />
+        {renderSchemaTags()}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17686693077"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17686693077');
+          `}
+        </Script>
+        <Nav />
+        {children}
+        <Footer />
+        <GoogleAnalytics gaId="G-02E4QZ8T8B" />
       </body>
     </html>
   );
