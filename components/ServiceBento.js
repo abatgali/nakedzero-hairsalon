@@ -15,7 +15,7 @@ export default function ServiceBento() {
             <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
                 <img
-                  alt=""
+                  alt="Hair shaping and styling service at NakedzerO Salon"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/shapingService.png"
                   className="h-80 object-cover object-left"
                 />
@@ -36,7 +36,7 @@ export default function ServiceBento() {
             <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-tr-[2rem]">
                 <img
-                  alt="Hair Coloring at NakedzerO Salon"
+                  alt="Balayage, highlights, and full hair coloring service at NakedzerO Salon in Indianapolis"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/coloring_service.png"
                   className="h-80 object-cover"
                 />
@@ -56,7 +56,7 @@ export default function ServiceBento() {
             <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-bl-[2rem]">
                 <img
-                  alt="Facial Rejuvenation"
+                  alt="Facial rejuvenation and skincare treatment at NakedzerO Salon in Greenwood"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/ff.png"
                   className="h-80 object-cover"
                 />

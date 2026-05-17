@@ -4,13 +4,13 @@ export default function Location() {
       className=" flex justify-center pt-10 flex-col h-screen mb-24"
       id="location"
     >
-      <h1 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white">
-        Where We Are
-      </h1>
-      <h3 className="text-2xl font-light my-10 text-center">
+      <h2 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white">
+        Visit Us in South Indianapolis
+      </h2>
+      <p className="text-2xl font-light my-10 text-center">
         8319 US 31 S, Indianapolis, IN 46227
-      </h3>
-      <h2 className="text-center font-extrabold text-2xl">Hours</h2>
+      </p>
+      <h3 className="text-center font-extrabold text-2xl">Hours</h3>
       <p className="text-xl text-center">
         <u>Monday - Saturday</u>
         <br />

@@ -6,9 +6,9 @@ export default function HaircutforMenandWomen() {
       <div className="bg-gray-950 ">
         <div className="bg-transparent w-full md:w-3/4 mx-auto h-auto pt-24 flex flex-row items-start justify-around  max-w-7xl">
           <div>
-            <h1 className="sm:text-6xl text-4xl font-bold text-left xl:text-8xl xl:w-3/4">
+            <h2 className="sm:text-6xl text-4xl font-bold text-left xl:text-8xl xl:w-3/4">
               <span className="text-amber-500">Women</span>&apos;s Haircut
-            </h1>
+            </h2>
             <h2 className="text-2xl font-semibold text-left text-slate-500">
               Cut, Wash & Style
             </h2>
@@ -19,8 +19,7 @@ export default function HaircutforMenandWomen() {
           <img
             className="w-56 sm:w-96"
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/woman-hc.png"
-            alt="texture"
-            layout="fill"
+            alt="Women's haircut, wash and style at NakedzerO Hair Salon in Greenwood, Indiana"
           />
         </div>
       </div>
@@ -29,13 +28,12 @@ export default function HaircutforMenandWomen() {
           <img
             className="w-64 sm:w-96 -ml-12"
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/man-hc.png"
-            alt="texture"
-            layout="fill"
+            alt="Men's haircut, wash and style at NakedzerO Hair Salon in South Indianapolis"
           />
           <div className="text-right">
-            <h1 className="sm:text-6xl text-4xl font-bold xl:text-8xl xl:w-3/4 ml-auto">
+            <h2 className="sm:text-6xl text-4xl font-bold xl:text-8xl xl:w-3/4 ml-auto">
               <span className="text-blue-500">Men</span>&apos;s Haircut
-            </h1>
+            </h2>
             <h2 className="text-2xl font-semibold text-slate-500">
               Cut, Wash & Style
             </h2>

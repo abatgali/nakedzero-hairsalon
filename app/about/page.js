@@ -100,7 +100,7 @@ export const SkeletonOne = () => {
         <div className="flex flex-1 w-full h-full flex-col space-y-2  ">
           <Image
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/Salon%20cover%20picture.jpg"
-            alt="header"
+            alt="Inside NakedzerO Hair Salon in Greenwood, Indiana"
             width={800}
             height={800}
             className="h-full w-full aspect-auto object-cover sm:object-center rounded-sm"
@@ -159,7 +159,7 @@ export const SkeletonTwo = () => {
           >
             <Image
               src={image}
-              alt="salon images"
+              alt="NakedzerO Hair Salon stylists, clients, and salon interior"
               width="500"
               height="500"
               className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover flex-shrink-0"
@@ -181,7 +181,7 @@ export const SkeletonTwo = () => {
           >
             <Image
               src={image}
-              alt="bali images"
+              alt="NakedzerO Salon hairstyling, coloring, and treatment work"
               width="500"
               height="500"
               className="rounded-lg h-20 w-20 md:h-40 md:w-40 object-cover flex-shrink-0"

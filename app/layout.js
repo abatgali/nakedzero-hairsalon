@@ -1,5 +1,5 @@
 import { Akshar } from "next/font/google";
-import { getSEOTags } from "@/libs/seo";
+import { getSEOTags, renderSchemaTags } from "@/libs/seo";
 import Head from "next/head";
 import config from "@/config";
 import "./globals.css";
@@ -24,6 +24,7 @@ export const metadata = getSEOTags();
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme={config.colors.theme} className={font.className}>
+      {renderSchemaTags()}
       {config.domainName && (
         <Head>
           <GoogleAnalytics

@@ -30,7 +30,8 @@ const Hero = () => {
             <Image
               className="mix-blend-overlay opacity-20"
               src={texture}
-              alt="texture"
+              alt=""
+              role="presentation"
               layout="fill"
               objectFit="cover"
             />
@@ -38,10 +39,10 @@ const Hero = () => {
           <div className="flex flex-row sm:flex-col justify-between w-full">
             <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 sm:translate-y-[250px] md:translate-y-[120px] lg:translate-y-[250px] translate-y-[450px] z-20">
               <div className="flex flex-col max-md:backdrop-blur-md max-sm:bg-black max-sm:bg-opacity-30 pt-4">
-                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold heading xl:ml-auto">
+                <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold heading xl:ml-auto">
                   Crafting your{" "}
                   <span className="text-orange-400">Signature</span> Look
-                </h1>
+                </h2>
                 <p className="mt-4 sm:mt-8 w-full lg:w-3/4 max-md:px-4 md:ml-auto lg:text-xl text-normal max-md:mx-auto md:pl-2">
                   Discover the NakedzerO difference in the{" "}
                   <Link href="#location">
