@@ -1,5 +1,6 @@
 import React from "react";
 import Reveal from "./motion/Reveal";
+import PriceWipe from "./motion/PriceWipe";
 
 export default function HaircutforMenandWomen() {
   return (
@@ -13,9 +14,12 @@ export default function HaircutforMenandWomen() {
             <h2 className="text-2xl font-semibold text-left text-slate-500">
               Cut, Wash & Style
             </h2>
-            <div className="text-left text-white bg-gradient-to-r from-yellow-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]">
+            <PriceWipe
+              origin="left"
+              className="text-left text-white bg-gradient-to-r from-yellow-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]"
+            >
               $55
-            </div>
+            </PriceWipe>
             <p className="text-left text-slate-400 mt-3 max-w-xs">
               Shampoo, precision cut, and a full blow-dry finish. You leave
               styled, not just trimmed.
@@ -42,9 +46,12 @@ export default function HaircutforMenandWomen() {
             <h2 className="text-2xl font-semibold text-slate-500">
               Cut, Wash & Style
             </h2>
-            <div className=" text-white bg-gradient-to-l from-blue-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]">
+            <PriceWipe
+              origin="right"
+              className=" text-white bg-gradient-to-l from-blue-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]"
+            >
               $40
-            </div>
+            </PriceWipe>
             <p className="text-right text-slate-400 mt-3 max-w-xs ml-auto">
               Shears or clippers, classic cut or clean fade, washed and styled
               so you can head straight back out.
