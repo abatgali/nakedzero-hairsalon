@@ -1,13 +1,33 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AppointmentLink from "./CalScheduler";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
+
 export default function Nav() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 80);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="h-fit bg-stone-950 backdrop-blur-md inset-0 top-0 z-50 fixed w-full bg-opacity-75">
+    <header
+      className={`h-fit bg-stone-950 backdrop-blur-md inset-0 top-0 z-50 fixed w-full transition-all duration-300 ${
+        scrolled ? "bg-opacity-90 shadow-lg" : "bg-opacity-75"
+      }`}
+    >
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 sm:pt-4 pt-2">
-        <div className="flex w-full gap-2 max-sm:hidden">
+        <div
+          className={`flex w-full gap-2 max-sm:hidden transition-all duration-300 overflow-hidden ${
+            scrolled ? "max-h-0 opacity-0" : "max-h-8 opacity-100"
+          }`}
+        >
           <a
             href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
             className="flex items-center gap-2 text-gray-400 transition hover:text-gray-500/75"
@@ -30,11 +50,19 @@ export default function Nav() {
             <a className="block text-white" href="/">
               <span className="sr-only">Home</span>
               <div>
-                <span className="text-[45px] font-bold max-sm:text-4xl">
+                <span
+                  className={`font-bold transition-all duration-300 ${
+                    scrolled ? "text-3xl" : "text-[45px] max-sm:text-4xl"
+                  }`}
+                >
                   NakedzerO
                 </span>{" "}
                 &nbsp;
-                <span className="text-[32px] font-light max-lg:hidden pl-4">
+                <span
+                  className={`font-light max-lg:hidden pl-4 transition-all duration-300 ${
+                    scrolled ? "text-2xl" : "text-[32px]"
+                  }`}
+                >
                   Hair Salon
                 </span>
               </div>
@@ -70,7 +98,11 @@ export default function Nav() {
             </div>
           </div>
         </div>
-        <div className="flex w-full gap-2 sm:hidden">
+        <div
+          className={`flex w-full gap-2 sm:hidden transition-all duration-300 overflow-hidden ${
+            scrolled ? "max-h-0 opacity-0" : "max-h-8 opacity-100"
+          }`}
+        >
           <a
             href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
             className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
