@@ -5,10 +5,13 @@ export default function Location() {
       id="location"
     >
       <h2 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white">
-        Visit Us in South Indianapolis
+        Come See Us on US 31
       </h2>
-      <p className="text-2xl font-light my-10 text-center">
+      <p className="text-2xl font-light mt-10 text-center">
         8319 US 31 S, Indianapolis, IN 46227
+      </p>
+      <p className="text-lg font-light mb-10 mt-2 text-center text-gray-400">
+        A few minutes north of downtown Greenwood.
       </p>
       <h3 className="text-center font-extrabold text-2xl">Hours</h3>
       <p className="text-xl text-center">
@@ -20,6 +23,13 @@ export default function Location() {
         <u>Sunday</u>
         <br />
         <span className="font-bold">Closed</span>
+      </p>
+      <p className="text-xl text-center mt-6">
+        Questions? Call us at{" "}
+        <a href="tel:3177017294" className="font-bold underline">
+          317-701-7294
+        </a>
+        .
       </p>
 
       <a
