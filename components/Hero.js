@@ -40,31 +40,30 @@ const Hero = () => {
             <div className="text-white text-center md:text-right absolute top-0 md:w-1/2 sm:translate-y-[250px] md:translate-y-[120px] lg:translate-y-[250px] translate-y-[450px] z-20">
               <div className="flex flex-col max-md:backdrop-blur-md max-sm:bg-black max-sm:bg-opacity-30 pt-4">
                 <h2 className="text-5xl sm:text-6xl md:text-7xl font-bold heading xl:ml-auto">
-                  Crafting your{" "}
-                  <span className="text-orange-400">Signature</span> Look
+                  Your salon on the{" "}
+                  <span className="text-orange-400">Greenwood</span> line
                 </h2>
                 <p className="mt-4 sm:mt-8 w-full lg:w-3/4 max-md:px-4 md:ml-auto lg:text-xl text-normal max-md:mx-auto md:pl-2">
-                  Discover the NakedzerO difference in the{" "}
+                  We opened NakedzerO in 2019 on{" "}
                   <Link href="#location">
-                    <u>South Indianapolis, Greenwood</u>
-                  </Link>{" "}
-                  area. Our expert stylists are dedicated to creating hairstyles
-                  that capture your unique essence. From cutting-edge cuts to
-                  vibrant colors and luxurious treatments, we specialize in
-                  personalizing your haircare experience. Embrace a new you with
-                  our exclusive hair care products and innovative styling, all
-                  tailored to your individual style. Let us help you unveil a
-                  look that&apos;s unmistakably yours.
+                    <u>US 31, just up the road from downtown Greenwood</u>
+                  </Link>
+                  , and we have filled our chairs the old-fashioned way ever
+                  since, one good haircut at a time. Bring us a photo, a vague
+                  idea, or just say fix it. We will talk through what your hair
+                  can actually do before we pick up the scissors. Cuts,
+                  balayage, perms, straightening, facials. It all happens here,
+                  Monday through Saturday until 8.
                 </p>
                 <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center">
                   <a href="/#services">
                     <button className="bg-blue-800 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-blue-400 rounded-md text-lg mr-4 hover:bg-blue-500 transition duration-300">
-                      Our Services
+                      See Services &amp; Prices
                     </button>
                   </a>
                   <AppointmentLink>
                     <button className="backdrop-blur-sm bg-orange-400 bg-opacity-30 rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-orange-400 hover:bg-orange-400  rounded-md text-lg mr-4 transition duration-300">
-                      Book Appointment
+                      Book an Appointment
                     </button>
                   </AppointmentLink>
                 </div>
