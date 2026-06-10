@@ -1,4 +1,5 @@
 import styles from "./styles/Background.module.css";
+import Reveal from "./motion/Reveal";
 
 export default function ServiceBento() {
   return (
@@ -13,7 +14,7 @@ export default function ServiceBento() {
           </p>
           <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
             <div className="flex p-px lg:col-span-3">
-              <div className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
+              <Reveal className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
                 <img
                   alt="Hair shaping and styling service at NakedzerO Salon"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/shapingService.png"
@@ -33,10 +34,13 @@ export default function ServiceBento() {
                     to day.
                   </p>
                 </div>
-              </div>
+              </Reveal>
             </div>
             <div className="flex p-px lg:col-span-3">
-              <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-tr-[2rem]">
+              <Reveal
+                delay={0.08}
+                className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-tr-[2rem]"
+              >
                 <img
                   alt="Balayage, highlights, and full hair coloring service at NakedzerO Salon in Indianapolis"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/coloring_service.png"
@@ -55,10 +59,13 @@ export default function ServiceBento() {
                     in one sitting and what is better done in stages.
                   </p>
                 </div>
-              </div>
+              </Reveal>
             </div>
             <div className="flex p-px lg:col-span-3">
-              <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-bl-[2rem]">
+              <Reveal
+                delay={0.16}
+                className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-bl-[2rem]"
+              >
                 <img
                   alt="Facial rejuvenation and skincare treatment at NakedzerO Salon in Greenwood"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/ff.png"
@@ -77,7 +84,7 @@ export default function ServiceBento() {
                     photographer.
                   </p>
                 </div>
-              </div>
+              </Reveal>
             </div>
             {/* <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]">

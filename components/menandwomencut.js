@@ -1,11 +1,12 @@
 import React from "react";
+import Reveal from "./motion/Reveal";
 
 export default function HaircutforMenandWomen() {
   return (
     <div className="w-full h-auto">
       <div className="bg-gray-950 ">
         <div className="bg-transparent w-full md:w-3/4 mx-auto h-auto pt-24 flex flex-row items-start justify-around  max-w-7xl">
-          <div>
+          <Reveal>
             <h2 className="sm:text-6xl text-4xl font-bold text-left xl:text-8xl xl:w-3/4">
               <span className="text-amber-500">Women</span>&apos;s Haircut
             </h2>
@@ -19,7 +20,7 @@ export default function HaircutforMenandWomen() {
               Shampoo, precision cut, and a full blow-dry finish. You leave
               styled, not just trimmed.
             </p>
-          </div>
+          </Reveal>
           <img
             className="w-56 sm:w-96"
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/woman-hc.png"
@@ -34,7 +35,7 @@ export default function HaircutforMenandWomen() {
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/man-hc.png"
             alt="Men's haircut, wash and style at NakedzerO Hair Salon in South Indianapolis"
           />
-          <div className="text-right">
+          <Reveal className="text-right">
             <h2 className="sm:text-6xl text-4xl font-bold xl:text-8xl xl:w-3/4 ml-auto">
               <span className="text-blue-500">Men</span>&apos;s Haircut
             </h2>
@@ -48,7 +49,7 @@ export default function HaircutforMenandWomen() {
               Shears or clippers, classic cut or clean fade, washed and styled
               so you can head straight back out.
             </p>
-          </div>
+          </Reveal>
         </div>
       </div>
     </div>
