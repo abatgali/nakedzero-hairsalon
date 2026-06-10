@@ -41,14 +41,14 @@ const HeroSection = () => {
             Cuts, color, and barbering on Indy&apos;s south side. Family-run
             since 2019.
           </p>
-          <div>
+          <div className="flex max-sm:flex-col gap-4 px-4">
             <Link href="#services">
-              <button className="bg-black rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-amber-400 rounded-md text-lg mr-4 hover:bg-emerald-700 transition duration-300">
+              <button className="w-full bg-transparent border-2 border-white text-white hover:bg-white hover:text-black rounded-md rounded-tl-[20px] rounded-br-[20px] px-6 py-3 text-lg transition duration-300">
                 See Services &amp; Prices
               </button>
             </Link>
             <Link href="/#appointment">
-              <button className="bg-transparent border-2 rounded-tl-[20px] rounded-br-[20px] border-white text-white px-6 py-3 rounded-md text-lg hover:bg-white hover:text-black transition duration-300">
+              <button className="w-full backdrop-blur-sm bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400 rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 text-lg transition duration-300">
                 Book an Appointment
               </button>
             </Link>

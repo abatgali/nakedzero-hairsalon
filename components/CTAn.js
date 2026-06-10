@@ -23,7 +23,7 @@ export default function CTAn() {
 
                   <div className="mt-4 md:mt-8 ">
                     <Link href="/#appointment">
-                      <button className="bg-black rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-amber-400 rounded-md text-lg mr-4 hover:bg-emerald-700 transition duration-300">
+                      <button className="backdrop-blur-sm bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400 rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 text-lg transition duration-300">
                         Book an Appointment
                       </button>
                     </Link>

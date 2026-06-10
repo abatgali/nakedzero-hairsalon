@@ -19,7 +19,7 @@ export default function Testimonials() {
               href="https://g.page/r/CZouyobgk2EYEBM/review"
               target="new"
             >
-              <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg mr-4 transition duration-300">
+              <button className="backdrop-blur-sm bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400 rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 text-lg transition duration-300">
                 Leave a Google Review
               </button>
             </Link>
