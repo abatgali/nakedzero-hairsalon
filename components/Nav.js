@@ -30,16 +30,16 @@ export default function Nav() {
         >
           <a
             href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
-            className="flex items-center gap-2 text-gray-400 transition hover:text-gray-500/75"
+            className="flex items-center gap-2 text-gray-300 transition hover:text-white"
             target="new"
           >
             <CiLocationOn />
             <span>8319 US 31 S</span>
           </a>
-          <span className="text-gray-400">|</span>
+          <span className="text-gray-300">|</span>
           <a
             href="tel:3177017294"
-            className="flex items-center gap-2 text-gray-400 transition hover:text-gray-500/75"
+            className="flex items-center gap-2 text-gray-300 transition hover:text-white"
           >
             <MdOutlineLocalPhone />
             <span>317-701-7294</span>
@@ -74,7 +74,7 @@ export default function Nav() {
                 <ul className="flex items-center gap-6 text-xl">
                   <li>
                     <Link
-                      className="text-gray-500 transition hover:text-gray-500/75"
+                      className="text-gray-300 transition hover:text-white"
                       href="/about"
                     >
                       About
@@ -82,7 +82,7 @@ export default function Nav() {
                   </li>
                   <li>
                     <Link
-                      className="text-gray-500 transition hover:text-gray-500/75"
+                      className="text-gray-300 transition hover:text-white"
                       href="/#location"
                     >
                       Location
@@ -105,16 +105,16 @@ export default function Nav() {
         >
           <a
             href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
-            className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
+            className="flex items-center gap-2 text-gray-300 transition hover:text-white"
             target="new"
           >
             <CiLocationOn />
             <span>8319 US 31 S</span>
           </a>
-          <span className="text-gray-500">|</span>
+          <span className="text-gray-300">|</span>
           <a
             href="tel:3177017294"
-            className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
+            className="flex items-center gap-2 text-gray-300 transition hover:text-white"
           >
             <MdOutlineLocalPhone />
             <span>317-701-7294</span>
