@@ -16,17 +16,18 @@ const HeroSection = () => {
           NakedzerO<span className="font-light"> Hair Salon</span>
         </h1>
         <p className="text-white text-lg mb-8 text-center">
-          The Unique Blend of Hair, Beauty, and Barber Services
+          Cuts, color, and barbering on Indy&apos;s south side. Family-run
+          since 2019.
         </p>
         <div>
           <Link href="#services">
             <button className="bg-black rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-amber-400 rounded-md text-lg mr-4 hover:bg-emerald-700 transition duration-300">
-              Our Services
+              See Services &amp; Prices
             </button>
           </Link>
           <Link href="/#appointment">
             <button className="bg-transparent border-2 rounded-tl-[20px] rounded-br-[20px] border-white text-white px-6 py-3 rounded-md text-lg hover:bg-white hover:text-black transition duration-300">
-              Book Now
+              Book an Appointment
             </button>
           </Link>
         </div>
