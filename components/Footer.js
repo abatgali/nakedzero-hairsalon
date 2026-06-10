@@ -18,7 +18,7 @@ const Footer = () => {
                 {config.appName}
               </strong>
             </Link>
-            <div className="flex sm:w-full gap-2 max-sm:mx-auto w-fit">
+            <div className="flex sm:w-full gap-2 max-sm:mx-auto w-fit text-sm">
               <a
                 href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
                 className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
