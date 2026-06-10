@@ -63,8 +63,7 @@ const Hero = () => {
                   since, one good haircut at a time. Bring us a photo, a vague
                   idea, or just say fix it. We will talk through what your hair
                   can actually do before we pick up the scissors. Cuts,
-                  balayage, perms, straightening, facials. It all happens here,
-                  Monday through Saturday until 8.
+                  balayage, perms, straightening, facials.
                 </p>
                 <div className="flex flex-row gap-5 sm:gap-8 max-md:mx-auto pl-4 sm:ml-auto my-8 sm:mt-12 text-center">
                   <a href="/#services">
