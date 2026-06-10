@@ -5,10 +5,13 @@ export default function Location() {
       id="location"
     >
       <h2 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white">
-        Visit Us in South Indianapolis
+        Come See Us on US 31
       </h2>
-      <p className="text-2xl font-light my-10 text-center">
+      <p className="text-2xl font-light mt-10 text-center">
         8319 US 31 S, Indianapolis, IN 46227
+      </p>
+      <p className="text-lg font-light mb-10 mt-2 text-center text-gray-400">
+        A few minutes north of downtown Greenwood.
       </p>
       <h3 className="text-center font-extrabold text-2xl">Hours</h3>
       <p className="text-xl text-center">
@@ -21,19 +24,25 @@ export default function Location() {
         <br />
         <span className="font-bold">Closed</span>
       </p>
+      <p className="text-xl text-center mt-6">
+        Questions? Call us at{" "}
+        <a href="tel:3177017294" className="font-bold underline">
+          317-701-7294
+        </a>
+        .
+      </p>
 
       <a
         href="https://maps.google.com/maps/dir//Mui+Le+Sam+By+Nakedzero+Hair+Salon+8319+US+31+S+Indianapolis,+IN+46227/@39.6451741,-86.1324631,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x886b5dcc43cae7df:0x186193e086ca2e9a"
         className="mx-auto my-12"
-        target="new"
+        target="_blank" rel="noopener noreferrer"
       >
-        <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg mr-4 transition duration-300">
+        <button className="backdrop-blur-sm bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400 rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 text-lg transition duration-300">
           Get Directions
         </button>
       </a>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1291.70033573693!2d-86.13308775966674!3d39.64524793097934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b5dcc43cae7df%3A0x186193e086ca2e9a!2sMui%20Le%20Sam%20By%20Nakedzero%20Hair%20Salon!5e0!3m2!1sen!2sus!4v1699755983722!5m2!1sen!2sus"
-        style={{ width: "400", height: "500" }}
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"

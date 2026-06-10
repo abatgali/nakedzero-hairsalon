@@ -13,17 +13,18 @@ export default function CTAn() {
               <div className="w-full h-full p-8 md:p-12 lg:px-16 lg:py-24 bg-opacity-60 bg-black">
                 <div className="mx-auto max-w-xl text-center  ">
                   <h2 className="text-2xl font-bold text-white md:text-3xl">
-                    Discover Your Best Hair Yet!
+                    Overdue for a haircut?
                   </h2>
 
                   <p className="hidden text-white/90 sm:mt-4 sm:block">
-                    Our expert stylists are dedicated to creating hairstyles that capture your unique essence.
+                    Booking takes about a minute, and you will see real
+                    openings. No phone tag.
                   </p>
 
                   <div className="mt-4 md:mt-8 ">
                     <Link href="/#appointment">
-                      <button className="bg-black rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 border-2 border-amber-400 rounded-md text-lg mr-4 hover:bg-emerald-700 transition duration-300">
-                        Book Now
+                      <button className="backdrop-blur-sm bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400 rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 text-lg transition duration-300">
+                        Book an Appointment
                       </button>
                     </Link>
                   </div>

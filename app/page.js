@@ -13,7 +13,7 @@ import { getSEOTags } from "@/libs/seo";
 export const metadata = getSEOTags({
   title: "Your Go-To Hair Salon in South Indy & Greenwood",
   description:
-    "Discover NakedzerO Salon in South Indianapolis & Greenwood for top-notch haircuts, coloring, and treatments. Your journey to stunning hair starts here.",
+    "Family-run hair salon on US 31 S serving South Indianapolis and Greenwood since 2019. Haircuts from $40, balayage, perms and facials. Book online in about a minute.",
   keywords: [
     "Asian haircut",
     "haircut",

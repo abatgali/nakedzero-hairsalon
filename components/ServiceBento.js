@@ -1,4 +1,5 @@
 import styles from "./styles/Background.module.css";
+import Reveal from "./motion/Reveal";
 
 export default function ServiceBento() {
   return (
@@ -6,14 +7,14 @@ export default function ServiceBento() {
       <div className=" py-24 sm:py-32" id="services">
         <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-base/7 font-semibold text-orange-400 mx-auto text-center">
-            The Ultimate Salon Experience
+            Services &amp; Starting Prices
           </h2>
           <p className="mt-2 max-w-lg text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl mx-auto text-center">
             Trims, Tones and Treatments
           </p>
           <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
             <div className="flex p-px lg:col-span-3">
-              <div className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
+              <Reveal className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
                 <img
                   alt="Hair shaping and styling service at NakedzerO Salon"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/shapingService.png"
@@ -27,14 +28,19 @@ export default function ServiceBento() {
                     Shaping & Styling
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
-                    Capture your unique essence with our expert hairstylists.
-                    Get the look you want with our cutting-edge cuts and styles.
+                    Cuts and styling for men and women: fades, layers, trims,
+                    perms, and straightening. Every appointment starts with a
+                    real conversation about how you actually wear your hair day
+                    to day.
                   </p>
                 </div>
-              </div>
+              </Reveal>
             </div>
             <div className="flex p-px lg:col-span-3">
-              <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-tr-[2rem]">
+              <Reveal
+                delay={0.08}
+                className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-tr-[2rem]"
+              >
                 <img
                   alt="Balayage, highlights, and full hair coloring service at NakedzerO Salon in Indianapolis"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/coloring_service.png"
@@ -48,13 +54,18 @@ export default function ServiceBento() {
                     Hair Coloring
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
-                    Balayage, highlights, full coloring, gloss toning and more.
+                    Balayage, highlights, full coloring, and gloss toning. We
+                    will be straight with you about what your hair can handle
+                    in one sitting and what is better done in stages.
                   </p>
                 </div>
-              </div>
+              </Reveal>
             </div>
             <div className="flex p-px lg:col-span-3">
-              <div className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-bl-[2rem]">
+              <Reveal
+                delay={0.16}
+                className="overflow-hidden rounded-lg bg-stone-800 lg:rounded-bl-[2rem]"
+              >
                 <img
                   alt="Facial rejuvenation and skincare treatment at NakedzerO Salon in Greenwood"
                   src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/servicesImages/ff.png"
@@ -68,10 +79,12 @@ export default function ServiceBento() {
                     Facial Rejuvenation
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
-                    Our facial treatments will leave your skin feeling refreshed and rejuvenated.
+                    Deep-cleansing facials and facial massage. A favorite
+                    add-on before weddings, reunions, and anything with a
+                    photographer.
                   </p>
                 </div>
-              </div>
+              </Reveal>
             </div>
             {/* <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]">

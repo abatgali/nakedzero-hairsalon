@@ -1,13 +1,18 @@
-import { Akshar } from "next/font/google";
+import { Akshar, Inter } from "next/font/google";
 import { getSEOTags, renderSchemaTags } from "@/libs/seo";
 import config from "@/config";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import MobileActionBar from "@/components/MobileActionBar";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 
-const font = Akshar({ subsets: ["latin"] });
+const akshar = Akshar({
+  subsets: ["latin"],
+  variable: "--font-akshar",
+});
+const inter = Inter({ subsets: ["latin"] });
 
 export const viewport = {
   // Will use the primary color of your theme to show a nice theme color in the URL bar of supported browsers
@@ -22,8 +27,12 @@ export const metadata = getSEOTags();
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme={config.colors.theme} className={font.className}>
-      <body>
+    <html
+      lang="en"
+      data-theme={config.colors.theme}
+      className={`${inter.className} ${akshar.variable}`}
+    >
+      <body className="pb-14 md:pb-0">
         {renderSchemaTags()}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17686693077"
@@ -40,6 +49,7 @@ export default function RootLayout({ children }) {
         <Nav />
         {children}
         <Footer />
+        <MobileActionBar />
         <GoogleAnalytics gaId="G-02E4QZ8T8B" />
       </body>
     </html>

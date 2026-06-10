@@ -4,8 +4,8 @@ const CTA = () => {
   return (
     <section className="relative hero overflow-hidden min-h-screen">
       <Image
-        src="https://images.pexels.com/photos/4422102/pexels-photo-4422102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        alt="Background"
+        src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/Salon%20cover%20picture.jpg"
+        alt="Inside NakedzerO Hair Salon in South Indianapolis"
         className="object-cover w-full"
         fill
       />
@@ -13,17 +13,17 @@ const CTA = () => {
       <div className="relative hero-content text-center text-neutral-content p-8">
         <div className="flex flex-col items-center max-w-xl p-8 md:p-0">
           <h2 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white mb-4">
-            Treat yourself to a new look
+            Ready When You Are
           </h2>
           <p className="text-lg opacity-80 mb-12 md:mb-16">
-            Ready for the makeover you imagined? Book
-            an appointment today!
+            Evening and Saturday spots go quickest. Grab a time before the
+            week fills up.
           </p>
 
           <div className="flex max-sm:flex-col gap-4">
             <Link href="#appointment">
-              <button className="bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400  rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-2 text-lg mr-4 transition duration-300">
-                Book Now
+              <button className="backdrop-blur-sm bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400 rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 text-lg transition duration-300">
+                Book an Appointment
               </button>
             </Link>
           </div>

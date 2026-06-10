@@ -22,7 +22,7 @@ const Footer = () => {
               <a
                 href="https://maps.app.goo.gl/dPStnF9wuXyXjfvb6"
                 className="flex items-center gap-2 text-gray-500 transition hover:text-gray-500/75"
-                target="new"
+                target="_blank" rel="noopener noreferrer"
               >
                 <CiLocationOn />
                 <span>8319 US 31 S</span>
