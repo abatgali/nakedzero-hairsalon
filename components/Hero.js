@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./styles/Background.module.css";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import texture from "../public/images/herotexture.jpeg";
 import HeroImages from "./HeroImages";
@@ -9,22 +9,33 @@ import AppointmentLink from "./CalScheduler";
 import Link from "next/link";
 
 const Hero = () => {
+  const rootRef = useRef(null);
+
   useEffect(() => {
-    gsap.fromTo(
-      ".heading",
-      { opacity: 0, y: 20 },
-      {
-        opacity: 1,
-        y: 0,
-        stagger: 0.05, // This creates the staggered effect
-        duration: 1,
-      }
-    );
+    // Scope the selector to this component so it doesn't grab the video
+    // hero's elements, which share the .heading class.
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        ".heading",
+        { opacity: 0, y: 20 },
+        {
+          opacity: 1,
+          y: 0,
+          stagger: 0.05, // This creates the staggered effect
+          duration: 1,
+        }
+      );
+    }, rootRef);
+
+    return () => ctx.revert();
   }, []);
 
   return (
     <>
-      <div className="h-auto relative overflow-x-hidden overflow-y-hidden">
+      <div
+        ref={rootRef}
+        className="h-auto relative overflow-x-hidden overflow-y-hidden"
+      >
         <div className="min-h-screen bg-gradient-to-b from-black via-emerald-700 to-gray-800">
           <div className={`w-full h-auto`}>
             <Image
