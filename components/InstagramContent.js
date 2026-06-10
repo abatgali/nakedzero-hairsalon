@@ -3,6 +3,13 @@ import styles from "./styles/Insta.module.css";
 export default function InstagramContent() {
   return (
     <div className="min-h-screen lg:w-4/5 xl:w-3/5 mx-auto mt-6 sm:mt-16 mb-2">
+      <h2 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white">
+        Recent Work
+      </h2>
+      <p className="text-center max-w-xl mx-auto my-5 px-4">
+        Fresh cuts and color from the chair. Follow @nakedzerohairsalon for
+        more.
+      </p>
       <div className="flex flex-row items-center gap-4 mx-auto w-fit mb-8">
         <a href="https://www.facebook.com/Nakedzero.com.uk/" target="_blank">
           <div className="w-28 h-28 bg-transparent rounded-full flex justify-center items-center">
