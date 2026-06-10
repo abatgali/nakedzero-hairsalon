@@ -4,8 +4,8 @@ const CTA = () => {
   return (
     <section className="relative hero overflow-hidden min-h-screen">
       <Image
-        src="https://images.pexels.com/photos/4422102/pexels-photo-4422102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        alt="Background"
+        src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/Salon%20cover%20picture.jpg"
+        alt="Inside NakedzerO Hair Salon in South Indianapolis"
         className="object-cover w-full"
         fill
       />
