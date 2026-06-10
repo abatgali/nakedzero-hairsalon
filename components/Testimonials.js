@@ -17,7 +17,7 @@ export default function Testimonials() {
           <div className="flex justify-center gap-5 ">
             <Link
               href="https://g.page/r/CZouyobgk2EYEBM/review"
-              target="new"
+              target="_blank" rel="noopener noreferrer"
             >
               <button className="backdrop-blur-sm bg-orange-400 bg-opacity-30 hover:bg-orange-400 border-2 border-orange-400 rounded-md rounded-tl-[20px] rounded-br-[20px] text-white px-6 py-3 text-lg transition duration-300">
                 Leave a Google Review

@@ -11,7 +11,7 @@ export default function InstagramContent() {
         more.
       </p>
       <div className="flex flex-row items-center gap-4 mx-auto w-fit mb-8">
-        <a href="https://www.facebook.com/Nakedzero.com.uk/" target="_blank">
+        <a href="https://www.facebook.com/Nakedzero.com.uk/" target="_blank" rel="noopener noreferrer">
           <div className="w-28 h-28 bg-transparent rounded-full flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function InstagramContent() {
           NakedzerO<span className="font-light"> Hair Salon</span>
         </span>
       </div>
-      <a href="https://www.instagram.com/nakedzerohairsalon/" target="_blank">
+      <a href="https://www.instagram.com/nakedzerohairsalon/" target="_blank" rel="noopener noreferrer">
         <div className="flex justify-center items-center gap-5 text-center text-gray-600 text-3xl md:text-4xl mb-12">
           <svg
             xmlns="http://www.w3.org/2000/svg"
