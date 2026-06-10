@@ -2,7 +2,7 @@ import styles from "./styles/Insta.module.css";
 
 export default function InstagramContent() {
   return (
-    <div className="min-h-screen lg:w-4/5 xl:w-3/5 mx-auto mt-6 sm:mt-16 mb-2">
+    <div className="lg:w-4/5 xl:w-3/5 mx-auto mt-6 sm:mt-16 mb-2">
       <h2 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl text-center mx-auto tracking-tight font-medium text-white">
         Recent Work
       </h2>

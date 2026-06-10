@@ -6,7 +6,7 @@ export default function HaircutforMenandWomen() {
   return (
     <div className="w-full h-auto">
       <div className="bg-gray-950 ">
-        <div className="bg-transparent w-full md:w-3/4 mx-auto h-auto pt-24 flex flex-row items-start justify-around  max-w-7xl">
+        <div className="bg-transparent w-full md:w-3/4 mx-auto h-auto pt-24 px-4 flex flex-col sm:flex-row items-center sm:items-start gap-8 justify-around max-w-7xl">
           <Reveal>
             <h2 className="sm:text-6xl text-4xl font-bold text-left xl:text-8xl xl:w-3/4">
               <span className="text-amber-500">Women</span>&apos;s Haircut
@@ -33,9 +33,9 @@ export default function HaircutforMenandWomen() {
         </div>
       </div>
       <div className="bg-black ">
-        <div className="bg-transparent w-full md:w-3/4 mx-auto h-auto pt-24 flex flex-row items-start justify-around  max-w-7xl">
+        <div className="bg-transparent w-full md:w-3/4 mx-auto h-auto pt-24 px-4 flex flex-col-reverse sm:flex-row items-center sm:items-start gap-8 justify-around max-w-7xl">
           <img
-            className="w-64 sm:w-96 -ml-12"
+            className="w-64 sm:w-96 sm:-ml-12"
             src="https://storage.googleapis.com/allprojectsdata/nakedzerosalon/man-hc.png"
             alt="Men's haircut, wash and style at NakedzerO Hair Salon in South Indianapolis"
           />

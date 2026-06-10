@@ -17,8 +17,7 @@ export default function Appointment() {
         </p>
         <iframe
           src="https://koalendar.com/e/nakedzerosalon?embed=true"
-          width="100%"
-          height="800px"
+          className="w-full h-[80vh] min-h-[600px]"
         ></iframe>
       </div>
     </>
