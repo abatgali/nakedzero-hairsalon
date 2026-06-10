@@ -15,6 +15,10 @@ export default function HaircutforMenandWomen() {
             <div className="text-left text-white bg-gradient-to-r from-yellow-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]">
               $55
             </div>
+            <p className="text-left text-slate-400 mt-3 max-w-xs">
+              Shampoo, precision cut, and a full blow-dry finish. You leave
+              styled, not just trimmed.
+            </p>
           </div>
           <img
             className="w-56 sm:w-96"
@@ -40,6 +44,10 @@ export default function HaircutforMenandWomen() {
             <div className=" text-white bg-gradient-to-l from-blue-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]">
               $40
             </div>
+            <p className="text-right text-slate-400 mt-3 max-w-xs ml-auto">
+              Shears or clippers, classic cut or clean fade, washed and styled
+              so you can head straight back out.
+            </p>
           </div>
         </div>
       </div>
