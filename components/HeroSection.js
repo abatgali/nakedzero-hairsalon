@@ -38,8 +38,7 @@ const HeroSection = () => {
             NakedzerO<span className="font-light"> Hair Salon</span>
           </h1>
           <p className="text-white text-lg mb-8 text-center">
-            Cuts, color, and barbering on Indy&apos;s south side. Family-run
-            since 2019.
+            Cuts, color, and barbering on Indy&apos;s south side since 2019.
           </p>
           <div className="flex max-sm:flex-col gap-4 px-4">
             <Link href="#services">
