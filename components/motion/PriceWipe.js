@@ -4,12 +4,23 @@ import { motion, useReducedMotion } from "framer-motion";
 
 // Grows a price badge in from its colored edge, then fades the price in.
 // origin: "left" for badges whose gradient starts on the left, "right" otherwise.
-export default function PriceWipe({ children, origin = "left", className }) {
+export default function PriceWipe({
+  children,
+  origin = "left",
+  className,
+  disableOnMobile = false,
+}) {
   const reduceMotion = useReducedMotion();
+  const mobileBadgeOverrides = disableOnMobile
+    ? " max-sm:!transform-none max-sm:!opacity-100"
+    : "";
+  const mobilePriceOverrides = disableOnMobile
+    ? " max-sm:!opacity-100"
+    : "";
 
   return (
     <motion.div
-      className={className}
+      className={`${className || ""}${mobileBadgeOverrides}`.trim()}
       style={{
         transformOrigin: origin === "left" ? "left center" : "right center",
       }}
@@ -19,7 +30,7 @@ export default function PriceWipe({ children, origin = "left", className }) {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <motion.span
-        className="inline-block"
+        className={`inline-block${mobilePriceOverrides}`}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, margin: "-60px" }}

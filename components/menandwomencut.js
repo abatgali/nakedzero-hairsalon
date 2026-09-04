@@ -16,6 +16,7 @@ export default function HaircutforMenandWomen() {
             </h2>
             <PriceWipe
               origin="left"
+              disableOnMobile
               className="text-left text-white bg-gradient-to-r from-yellow-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]"
             >
               $55
@@ -48,6 +49,7 @@ export default function HaircutforMenandWomen() {
             </h2>
             <PriceWipe
               origin="right"
+              disableOnMobile
               className=" text-white bg-gradient-to-l from-blue-600 to-transparent p-4 font-bold text-2xl rounded-md rounded-tl-[25px] rounded-br-[25px]"
             >
               $40
