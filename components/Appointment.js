@@ -15,10 +15,16 @@ export default function Appointment() {
           </a>
           .
         </p>
-        <iframe
+        {/* <iframe
           src="https://koalendar.com/e/nakedzerosalon?embed=true"
           className="w-full h-[80vh] min-h-[600px]"
-        ></iframe>
+        ></iframe> */}
+        <iframe 
+        src="https://remicita.com/nakedzero-salon/hair-salon-appointment?embed=1&amp;background=%23171212"
+        className="w-full min-h-[60vh] min-h-[600px]"
+        title="Book: Hair Salon Appointment">
+
+        </iframe>
       </div>
     </>
   );
