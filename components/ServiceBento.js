@@ -12,7 +12,7 @@ export default function ServiceBento() {
           <p className="mt-2 max-w-lg text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl mx-auto text-center">
             Trims, Tones and Treatments
           </p>
-          <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-1">
             <div className="flex p-px lg:col-span-3">
               <Reveal className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
                 <img
@@ -61,6 +61,7 @@ export default function ServiceBento() {
                 </div>
               </Reveal>
             </div>
+            {/*
             <div className="flex p-px lg:col-span-3">
               <Reveal
                 delay={0.16}
@@ -86,6 +87,7 @@ export default function ServiceBento() {
                 </div>
               </Reveal>
             </div>
+            /*}
             {/* <div className="flex p-px lg:col-span-3">
               <div className="overflow-hidden rounded-lg bg-stone-800 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]">
                 <img

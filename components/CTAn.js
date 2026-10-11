@@ -8,7 +8,8 @@ export default function CTAn() {
     <>
       <section className="">
         <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          {/* <div className="grid grid-cols-1 gap-4 md:grid-cols-2"> */}
+          <div className="grid grid-cols-1 gap-4">
             <div className={`z-10 ${styles.bgImage}`}>
               <div className="w-full h-full p-8 md:p-12 lg:px-16 lg:py-24 bg-opacity-60 bg-black">
                 <div className="mx-auto max-w-xl text-center  ">
@@ -31,14 +32,14 @@ export default function CTAn() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
+            {/* <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
               <div
                 className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage2}`}
               ></div>
               <div
                 className={`h-40 w-full object-cover sm:h-56 md:h-full ${styles.bgImage3}`}
               ></div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

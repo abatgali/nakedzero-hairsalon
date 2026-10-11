@@ -75,6 +75,14 @@ export default function Nav() {
                   <li>
                     <Link
                       className="text-gray-300 transition hover:text-white"
+                      href="/services"
+                    >
+                      Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="text-gray-300 transition hover:text-white"
                       href="/about"
                     >
                       About
@@ -120,6 +128,25 @@ export default function Nav() {
             <span>317-701-7294</span>
           </a>
         </div>
+        <nav aria-label="Mobile" className="py-2 md:hidden">
+          <ul className="flex items-center justify-center gap-6 text-sm text-gray-300">
+            <li>
+              <Link href="/services" className="transition hover:text-white">
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="transition hover:text-white">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/#location" className="transition hover:text-white">
+                Location
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   );

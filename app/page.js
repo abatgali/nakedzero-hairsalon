@@ -5,9 +5,11 @@ import HeroSection from "@/components/HeroSection";
 import CTAn from "@/components/CTAn";
 import Testimonials from "@/components/Testimonials";
 import ServiceBento from "@/components/ServiceBento";
+import HomeServicesMenu from "@/components/HomeServicesMenu";
 import Appointment from "@/components/Appointment";
 import InstagramContent from "@/components/InstagramContent";
 import HaircutforMenandWomen from "@/components/menandwomencut";
+import PermanentHairServices from "@/components/PermanentHairServices";
 import { getSEOTags } from "@/libs/seo";
 
 export const metadata = getSEOTags({
@@ -33,9 +35,11 @@ export default function Page() {
       <HeroSection />
       <Hero />
       <HaircutforMenandWomen />
+      <PermanentHairServices />
       <div className="container mx-auto max-w-7xl">
         <CTAn />
-        <ServiceBento/> 
+        <ServiceBento />
+        <HomeServicesMenu />
         <Location />
         <Appointment />
         <Testimonials />
